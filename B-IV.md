@@ -6,7 +6,7 @@ title: BLOQUE IV
 BLOQUE IV: LA GLOBALIZACIÓN DE LAS IDEAS
 ========================================
 
-![Imagen](/assets/images/B-IV.jpg "Titulo")
+![Imagen](/fragilidad-memoria/assets/images/B-IV.jpg "Titulo")
 
 
 Desde la antigua Atenas (cuna de la democracia) hasta los Estados Unidos de América, todas las potencias democráticas (empleo este término en un sentido no estricto) han mostrado un comportamiento imperialista en su política exterior. La razón de este hecho, constatable históricamente, no es fácil de explicar, pero, a mi juicio, se fundamenta en que tales potencias (Atenas, Roma, Reino Unido, Francia, España, Estados Unidos) nunca fueron capaces de globalizar, realmente, las ideas, singularmente las ideas democráticas.
