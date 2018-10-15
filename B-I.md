@@ -6,7 +6,7 @@ title: BLOQUE I
 LA HISTORIA COMO MAGISTER VITAE
 =========================================
 
-![Imagen](/assets/images/B-I.jpg "Titulo")
+![Imagen](/fragilidad-memoria/assets/images/B-I.jpg "Titulo")
 
 Hace unos cien años, George Santayana escribió:
 
