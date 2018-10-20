@@ -1,0 +1,43 @@
+---
+layout: page
+order: 1
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple JS Image Gallery</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="assets/js/jquery.cycle2.min.js"></script>
+    <script type="text/javascript">
+    $(function() {
+      $( '.cycle-slideshow' ).on( 'cycle-before', function( event, opts ) {
+        console.log( "on after!" );
+        //$('.cycle-slideshow').cycle('next');
+        // your event handler code here
+        // argument opts is the slideshow's option hash
+      });
+    });
+
+
+    </script>
+
+  </head>
+  <body>
+
+
+    <!-- declare a slideshow -->
+    <div class="cycle-slideshow" data-cycle-fx="fadeout"  data-cycle-speed="3000">
+        <img src="assets/images/0.jpg"/>
+        <img src="assets/images/1-bw.jpg">
+        <img src="assets/images/2-bw.jpg">
+        <img src="assets/images/3-bw.jpg">
+        <img src="assets/images/4-bw.jpg">
+        <!--<img src="800/b.jpg">-->
+    </div>
+    <br>
+    <br>
+    <button data-cycle-cmd="next">Next</button>
+  </body>
+</html>
