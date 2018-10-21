@@ -1,12 +1,11 @@
 ---
 layout: page
-title: BLOQUE I
 ---
 
 LA HISTORIA COMO MAGISTER VITAE
 =========================================
 
-![Imagen](/fragilidad-memoria/assets/images/B-I.jpg "Titulo")
+![Imagen](/fragilidad-memoria/assets/images/1.jpg "Titulo")
 
 Hace unos cien años, George Santayana escribió:
 

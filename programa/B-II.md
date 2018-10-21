@@ -1,12 +1,11 @@
 ---
 layout: page
-title: BLOQUE II
 ---
 
 BLOQUE II: LENGUAJE E IGUALDAD
 ==============================
 
-![Imagen](/fragilidad-memoria/assets/images/B-II.jpg "Titulo")
+![Imagen](/fragilidad-memoria/assets/images/2.jpg "Titulo")
 
 Vivimos tiempos en que la palabra igualdad es utilizada a diario, en todo tipo de contextos. En realidad, es una palabra que define bien uno de los rasgos fundamentales del tiempo que vivimos: la reivindicación femenina de su papel en el modelo de sociedad patriarcal. En mi opinión, sin embargo, el éxito del modelo indoeuropeo de sociedad patriarcal (impuesto hace aproximadamente tres mil seiscientos años) ha ido mucho más allá de lo que sus propios inductores imaginaron. Y así, en nuestros días, muchas mujeres (a cuya costa se construyó tal sociedad) han asumido e interiorizado ese modelo incluso cuando creen oponerse a él.
 

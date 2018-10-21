@@ -1,12 +1,11 @@
 ---
 layout: page
-title: BLOQUE III
 ---
 
 BLOQUE III: LA INCALCULABLE HERENCIA DE GRECIA Y ROMA
 =====================================================
 
-![Imagen](/fragilidad-memoria/assets/images/B-III.jpg "Titulo")
+![Imagen](/fragilidad-memoria/assets/images/3.jpg "Titulo")
 
 Todos los habitantes de este mundo, especialmente los que vivimos en Occidente, tenemos una madre común que nos dejó una herencia colosal, sin la que no podríamos reconocernos. Esa madre se llama Grecia. Esa madre se llama Roma. Libertad, política, democracia, ley, derecho, justicia, literatura, historia, arte, ciencia, globalización... son conceptos inventados, experimentados y sufridos en la antigua Grecia y, poco después, en Roma. Y, precisamente, desde ese mundo global que esconde la palabra Roma, en un verdadero viaje en el tiempo, tales conceptos, convertidos en experiencias, han llegado hasta un mundo como el nuestro que, tras haber olvidado quién es su verdadera madre y despreciado su herencia, cree, como un adolescente, que las vive por primera vez.
 
