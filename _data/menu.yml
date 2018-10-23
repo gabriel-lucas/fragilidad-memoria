@@ -1,12 +1,12 @@
 - name: Inicio
-  url: "/fragilidad-memoria/"
+  url: "/"
 - name: Programa
-  url: "/fragilidad-memoria/programa/"
+  url: "/programa/"
 - name: Ponente
-  url: "/fragilidad-memoria/ponente/"
+  url: "/ponente/"
 - name: Inscripción
-  url: "/fragilidad-memoria/inscripcion"
+  url: "/inscripcion"
 - name: Información práctica
-  url: "/fragilidad-memoria/informacion/"
+  url: "/informacion/"
 - name: Contacto
-  url: "/fragilidad-memoria/contacto/"
+  url: "/contacto/"
