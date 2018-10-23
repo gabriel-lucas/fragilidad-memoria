@@ -17,7 +17,7 @@ title: La Fragilidad de la Memoria
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Curso Historia - Claves históricas para entender el presente.
-baseurl: "/fragilidad-memoria" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gabriel-lucas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author: "Gabriel Lucas"
 twitter: jekyllrb
