@@ -2,7 +2,7 @@
 layout: page
 ---
 
-![Imagen](/fragilidad-memoria/assets/images/Bernardo_Souviron.jpg "Titulo")
+![Imagen](/assets/images/Bernardo_Souviron.jpg "Titulo")
 
 Bernardo Souvirón Guijo (Córdoba, 1953) fue profesor de Griego Antiguo y Cultura Clásica en el Instituto María Zambrano de El Espinar (Segovia) y profesor Tutor de Latín en las Facultades de Filología y Filosofía de la Universidad Nacional de Educación a Distancia.
 Durante quince años fue redactor del Diccionario Griego – Español que, bajo la dirección del profesor y académico Francisco Rodríguez Adrados, se redacta en el Consejo Superior de Investigaciones Científicas. Como miembro de este equipo, recibió en el año 1989 el Premio Aristóteles que concede anualmente la Fundación Onassis.

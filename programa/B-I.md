@@ -5,7 +5,7 @@ layout: page
 LA HISTORIA COMO MAGISTER VITAE
 =========================================
 
-![Imagen](/fragilidad-memoria/assets/images/1.jpg "Titulo")
+![Imagen](/assets/images/1.jpg "Titulo")
 
 Hace unos cien años, George Santayana escribió:
 
