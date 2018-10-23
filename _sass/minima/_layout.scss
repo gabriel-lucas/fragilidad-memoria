@@ -25,7 +25,9 @@
 }
 
 .site-nav {
-  display:block;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   max-width: 800px;
   margin: auto;
   text-align: center;
@@ -34,7 +36,6 @@
   //border-bottom: 1px solid red;
 
   ul {
-      display: flex;
       align-items: stretch; /* Default */
       justify-content: space-between;
       width: 100%;

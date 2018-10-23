@@ -1,21 +1,12 @@
-<!-- navigation.html contents -->
 
-{% assign links = site.data.menu %}
-
-<ul>
-{% for link in links %}
-{% if link.name == "Inicio" %}
-<li>
-  <a href="{{ link.url }}">
-    <img src="/assets/images/barco.png">
-  </a>
-</li>
-{% else %}
+<!-- navigation.html contents -->{% assign links = site.data.menu %}
+<ul>{% for link in links %}{% if link.name == "Inicio" %}
   <li>
-  <a href="{{ link.url }}">
-    {{ link.name }}
-  </a>
-</li>
-{% endif %}
-{% endfor %}
+    <a href="{{ link.url }}">
+      <img src="/assets/images/barco.png">
+    </a>
+  </li>{% else %}
+  <li>
+    <a class="sample" href="{{ link.url }}">{{ link.name }}</a>
+  </li>{% endif %}{% endfor %}
 </ul>

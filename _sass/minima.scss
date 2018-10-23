@@ -49,3 +49,13 @@ $on-laptop:        800px !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Roboto);
+}
+
+.sample{
+  font-family: 'Roboto', sans-serif;
+  font-size:20px;
+}
