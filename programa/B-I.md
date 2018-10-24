@@ -62,3 +62,6 @@ Tercera sesión. La democracia velada.
 * La creación del estado plebeyo: ¿inmunidad o impunidad?
 * El regreso del modelo gentilicio: los partidos políticos
 * Debate
+
+[Programa]({{ site.baseurl }}{% link programa/index.md%})
+[Bloque II]({{ site.baseurl }}{% link programa/B-II.md %})

@@ -50,3 +50,7 @@ Todos los habitantes de este mundo, especialmente los que vivimos en Occidente, 
 * La posición de la mujer en la cadena de producción humana
 * Ser mujer como clase social
 * Debate
+
+[Bloque II]({{ site.baseurl }}{% link programa/B-II.md %})
+[Programa]({{ site.baseurl }}{% link programa/index.md%})
+[Bloque IV]({{ site.baseurl }}{% link programa/B-IV.md %})

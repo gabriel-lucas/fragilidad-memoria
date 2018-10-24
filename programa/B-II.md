@@ -47,3 +47,7 @@ Vivimos tiempos en que la palabra igualdad es utilizada a diario, en todo tipo d
 * Abstractos, concretos y agentes
 * La lengua y sus procedimientos “naturales” de igualdad
 * Debate
+
+[Bloque I]({{ site.baseurl }}{% link programa/B-I.md %})
+[Programa]({{ site.baseurl }}{% link programa/index.md%})
+[Bloque III]({{ site.baseurl }}{% link programa/B-III.md %})

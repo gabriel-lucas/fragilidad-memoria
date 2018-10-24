@@ -49,3 +49,7 @@ Desde la antigua Atenas (cuna de la democracia) hasta los Estados Unidos de Amé
 * La transformación del cristianismo: la destrucción del mundo antiguo
 * La “invasión” de los bárbaros
 * Debate
+
+
+[Bloque III]({{ site.baseurl }}{% link programa/B-II.md %})
+[Programa]({{ site.baseurl }}{% link programa/index.md%})
