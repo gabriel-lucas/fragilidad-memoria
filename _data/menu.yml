@@ -1,0 +1,10 @@
+- name: Inicio
+  url: "/"
+- name: Programa
+  url: "/programa/"
+- name: Ponente
+  url: "/ponente/"
+- name: Inscripción
+  url: "/inscripcion"
+- name: Contacto
+  url: "/contacto/"
