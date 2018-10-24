@@ -2,7 +2,7 @@
 layout: page
 ---
 
-BLOQUE II: LENGUAJE E IGUALDAD
+LENGUAJE E IGUALDAD - BLOQUE II
 ==============================
 
 ![Imagen](/assets/images/2.jpg "Titulo")

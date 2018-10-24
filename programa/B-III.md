@@ -2,7 +2,7 @@
 layout: page
 ---
 
-BLOQUE III: LA INCALCULABLE HERENCIA DE GRECIA Y ROMA
+LA INCALCULABLE HERENCIA DE GRECIA Y ROMA - BLOQUE III
 =====================================================
 
 ![Imagen](/assets/images/3.jpg "Titulo")

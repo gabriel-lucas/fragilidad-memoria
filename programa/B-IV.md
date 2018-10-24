@@ -2,7 +2,7 @@
 layout: page
 ---
 
-BLOQUE IV: LA GLOBALIZACIÓN DE LAS IDEAS
+LA GLOBALIZACIÓN DE LAS IDEAS - BLOQUE IV
 ========================================
 
 ![Imagen](/assets/images/4.jpg "Titulo")

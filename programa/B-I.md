@@ -2,7 +2,7 @@
 layout: page
 ---
 
-LA HISTORIA COMO MAGISTER VITAE
+LA HISTORIA COMO MAGISTER VITAE - BLOQUE I
 =========================================
 
 ![Imagen](/assets/images/1.jpg "Titulo")
