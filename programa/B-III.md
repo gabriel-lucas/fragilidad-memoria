@@ -12,45 +12,48 @@ Todos los habitantes de este mundo, especialmente los que vivimos en Occidente, 
 
 
 
-# Primera sesión. 2/III. UNA DEUDA IMPAGABLE
-
-## Primera parte
+UNA DEUDA IMPAGABLE. Primera sesión.
+-------------------------------------------
+  2 Marzo 2018
 * La herencia intangible
 * Libertad e individualidad
 * El derecho y la ley: procesos de repetundis
 * Los sabios
 
-## Segunda parte
 * La herencia tangible
 * El alfabeto y las sociedades letradas
 * Solón y la democracia
 * Las XII tablas y el Estado de Derecho
 * Debate
 
-# Segunda sesión. 9/III. HUMANISMO Y EDUCACIÓN
-## Primera parte
+HUMANISMO Y EDUCACIÓN. Segunda sesión.
+--------------------------------------
+  9 Marzo 2018
 * Filantropía
 * Paideía
 * Humanitas
 
-## Segunda parte
 * Las humanidades clásicas
 * Las nuevas humanidades
 * La educación hoy
 * Debate
 
-# Tercera sesión. 16/III. UN LADO OSCURO: EL DESTIERRO SOCIAL DE LA MUJER
-
-## Primera parte
+UN LADO OSCURO: EL DESTIERRO SOCIAL DE LA MUJER. Tercera sesión.
+-----------------------------------------------------------------
+   16 Marzo 2018
 * El mito como arma
 * Modelos negativos: Helena, Antígona, Medea
 * Modelos positivos: Alcestis, Penélope
 
-## Segunda parte
 * La posición de la mujer en la cadena de producción humana
 * Ser mujer como clase social
 * Debate
 
+{:.align_left}
 [Bloque II]({{ site.baseurl }}{% link programa/B-II.md %})
-[Programa]({{ site.baseurl }}{% link programa/index.md%})
+
+{:.align_right}
 [Bloque IV]({{ site.baseurl }}{% link programa/B-IV.md %})
+
+[<img src="/assets/images/oar.png"/>{:.align_left_bottom}]({{ site.baseurl }}{% link programa/B-II.md %})
+[<img src="/assets/images/oar.png"/>{:.flip}{:.align_right_bottom}]({{ site.baseurl }}{% link programa/B-IV.md %})

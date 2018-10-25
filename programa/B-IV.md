@@ -12,44 +12,43 @@ Desde la antigua Atenas (cuna de la democracia) hasta los Estados Unidos de Amé
 
 
 
-# Primera sesión. 23/III. LA MENTALIDAD DE LA CIUDAD-ESTADO
-
-## Primera parte
+LA MENTALIDAD DE LA CIUDAD-ESTADO. Primera sesión.
+--------------------------------------------------
+   23 Marzo 2018
 * La confederación ateniense
 * Consecuencias de las guerras civiles
 
-## Segunda parte
 * Democracia e imperialismo
 * Atenas y Roma
 * Inglaterra
 * Estados Unidos
 * Debate
 
-# Segunda sesión. 30/III. LA FRAGILIDAD DE LA MEMORIA Y EL PRINCIPIO DEL FIN
-
-## Primera parte
+LA FRAGILIDAD DE LA MEMORIA Y EL PRINCIPIO DEL FIN. Segunda sesión.
+-------------------------------------------------------------------
+   30 Marzo 2018
 * Caída de la república romana
 * El concepto de Imperium
 * El emperador dios
 * Provincias: ¿administración o explotación?
 
-## Segunda parte
 * ¿Barbaros, extranjeros, migrantes, refugiados?
 * Busiris y Heracles: un mito xenófobo
 * Aparición del cristianismo: una religión excluyente
 * Debate
 
-# Tercera sesión. 6/IV. HACIA LA EDAD MEDIA
-
-## Primera parte
+HACIA LA EDAD MEDIA. Tercera sesión.
+-----------------------------------
+   6 Marzo 2018
 * El problema de las religiones
 * Las persecuciones de los cristianos: ¿historia o mito?
 
-## Segunda parte###
 * La transformación del cristianismo: la destrucción del mundo antiguo
 * La “invasión” de los bárbaros
 * Debate
 
 
-[Bloque III]({{ site.baseurl }}{% link programa/B-II.md %})
-[Programa]({{ site.baseurl }}{% link programa/index.md%})
+{:.align_left}
+[Bloque III]({{ site.baseurl }}{% link programa/B-III.md %})
+
+[<img src="/assets/images/oar.png"/>{:.align_left_bottom}]({{ site.baseurl }}{% link programa/B-III.md %})

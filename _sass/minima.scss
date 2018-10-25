@@ -62,7 +62,7 @@ $on-laptop:        800px !default;
 
 .sample{
    font-family: 'Alegreya';
-   color: green;
+   color: black;
    font-size: 22px;
 
    &:visited {
@@ -73,4 +73,24 @@ $on-laptop:        800px !default;
      color: black;
      text-decoration: underline;
    }
+}
+.align_right {
+   float:right; clear:right;
+   margin-right:15%;
+ }
+ .align_right_bottom{
+   float:right; clear:right;
+ }
+
+ .align_left {
+    float:left; clear:left;
+    margin-left:15%;
+  }
+  .align_left_bottom{
+    float:left; clear:left;
+  }
+
+.flip{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }

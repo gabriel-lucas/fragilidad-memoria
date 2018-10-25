@@ -2,15 +2,14 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-
-    <!--<h2 class="footer-heading">{{ site.title | escape }}</h2>-->
-
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="footer-col footer-col-2">
+
         <ul class="contact-list">
+          <li class="sample">{{- site.description | escape -}}</li>
           <li class="p-name">
             {%- if site.author -%}
-              {{ site.author | escape }}
+              Organizado por {{ site.author | escape }}
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
@@ -19,10 +18,7 @@
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
         </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+        <!--{%- include social.html -%}
         {% if site.twitter %}
           <a href="https://twitter.com/{{ site.twitter }}">
             twitter
@@ -33,13 +29,11 @@
           <a href="https://github.com/{{ site.github }}">
             github<span class="fa fa-fw fa-github"/>
           </a>
-        {% endif %}
+        {% endif %}-->
 
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
+
     </div>
 
   </div>
