@@ -50,6 +50,13 @@ $on-laptop:        800px !default;
   "minima/syntax-highlighting"
 ;
 
+
+// Añadido por mi.
+
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
   font-family: 'Roboto', sans-serif;
   src: url(https://fonts.googleapis.com/css?family=Roboto);
@@ -59,6 +66,78 @@ $on-laptop:        800px !default;
   font-family: 'Alegreya', sans-serif;
   src: url(https://fonts.googleapis.com/css?family=Alegreya);
 }
+
+// Hamburguesa posicionada en la esquina superior izquierda.
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+// Hamburguesa no visible por defecto
+.site-nav .icon {
+    display: none;
+}
+
+// Listado menu.
+.main-nav {
+    width: 80%;
+    list-style-type: none;
+    display: none;
+}
+.active {
+  display: block;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .site-nav {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        padding-top: 95px;
+        justify-content: space-between;
+    }
+
+    .main-nav li {
+        margin: 0px;
+    }
+
+    .nav-links {
+        margin-left: 40px;
+    }
+
+    .logo {
+        margin-top: 25px;
+    }
+
+   .navbar-toggle {
+       display: none;
+    }
+
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+}
+//---------------------
 
 .sample{
    font-family: 'Alegreya';
@@ -72,8 +151,21 @@ $on-laptop:        800px !default;
    &:hover {
      color: black;
      text-decoration: underline;
+     //border-bottom: 3px solid;
    }
 }
+
+.texto-footer{
+   font-family: 'Alegreya';
+   color: black;
+   font-size: 17px;
+}
+.cycle-slideshow{
+  position: relative;
+  top: -30px;
+}
+
+// Flechas sección bloques. Alinear la flecha y el texto.
 .align_right {
    float:right; clear:right;
    margin-right:15%;
@@ -90,7 +182,66 @@ $on-laptop:        800px !default;
     float:left; clear:left;
   }
 
+// Voltear la imagen de la flecha para usar una sola imagen
 .flip{
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+}
+
+.div-invisible{
+  display:none;
+  cursor: pointer;
+}
+.div-visible{
+  display:block;
+  cursor: pointer;
+  padding-top:12px;
+  padding-left:30px;
+}
+
+//label.div-visible input[type=checkbox]{
+//}
+
+
+// Formulario
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=telephone], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
 }

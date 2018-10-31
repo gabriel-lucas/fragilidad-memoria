@@ -23,7 +23,7 @@ Para los antiguos griegos, en efecto, la historia era fundamentalmente una secue
 
 Memoria e ingenuidad. Primera sesión.
 ------------------------------------------
-  19 Enero 2018
+  19 Enero 2019
 
 * El pasado en el presente
 * El sentido dramático de la historia
@@ -38,7 +38,7 @@ Memoria e ingenuidad. Primera sesión.
 
 Guerra y sociedad patriarcal. Segunda sesión.
 ----------------------------------------------------
-26 Enero 2018
+26 Enero 2019
 
 * La civilización minoica y la mujer
 * La civilización micénica y el hombre
@@ -52,7 +52,7 @@ Guerra y sociedad patriarcal. Segunda sesión.
 
 La democracia velada. Tercera sesión.
 --------------------------------------------
-2 Febrero 2018
+2 Febrero 2019
 
 
 * Las sociedades gentilicias: gens y génos

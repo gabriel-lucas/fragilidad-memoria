@@ -1,11 +1,12 @@
 
 <!-- navigation.html contents -->{% assign links = site.data.menu %}
-<ul>{% for link in links %}{% if link.name == "Inicio" %}
-  <li>
-    <a href="{{ link.url }}">
-      <img src="/assets/images/barco.png">
-    </a>
-  </li>{% else %}
+<span class="navbar-toggle" id="js-navbar-toggle">
+  <i class="fas fa-bars"></i>
+</span>{% for link in links %}{% if link.name == "Inicio" %}
+<a class="logo" href="{{ link.url }}">
+  <img src="/assets/images/barco.png">
+</a>
+<ul class="main-nav" id="js-menu">{% else %}
   <li>
     <a class="sample" href="{{ link.url }}">{{ link.name }}</a>
   </li>{% endif %}{% endfor %}

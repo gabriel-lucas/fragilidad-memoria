@@ -16,17 +16,17 @@
 title: La Fragilidad de la Memoria
 email:  fragilidadmemoria@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Claves históricas para entender el presente.
+  Claves del pasado para entender el presente.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gabriel-lucas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-author: "Andrea Souvirón y Gabriel Lucas"
+author: "Andrea Souvirón M. y Gabriel Lucas B."
 twitter: jekyllrb
 github:  jekyll
 
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
+plugins_dir:
   - jekyll-feed
 
 # Exclude from processing.

@@ -12,9 +12,9 @@ Desde la antigua Atenas (cuna de la democracia) hasta los Estados Unidos de Amé
 
 
 
-LA MENTALIDAD DE LA CIUDAD-ESTADO. Primera sesión.
+La mentalidad de la ciudad-estado. Primera sesión.
 --------------------------------------------------
-   23 Marzo 2018
+   23 Marzo 2019
 * La confederación ateniense
 * Consecuencias de las guerras civiles
 
@@ -24,9 +24,9 @@ LA MENTALIDAD DE LA CIUDAD-ESTADO. Primera sesión.
 * Estados Unidos
 * Debate
 
-LA FRAGILIDAD DE LA MEMORIA Y EL PRINCIPIO DEL FIN. Segunda sesión.
+La fragilidad de la memoria y el principio del fin. Segunda sesión.
 -------------------------------------------------------------------
-   30 Marzo 2018
+   30 Marzo 2019
 * Caída de la república romana
 * El concepto de Imperium
 * El emperador dios
@@ -37,9 +37,9 @@ LA FRAGILIDAD DE LA MEMORIA Y EL PRINCIPIO DEL FIN. Segunda sesión.
 * Aparición del cristianismo: una religión excluyente
 * Debate
 
-HACIA LA EDAD MEDIA. Tercera sesión.
+Hacia la edad media. Tercera sesión.
 -----------------------------------
-   6 Marzo 2018
+   6 Marzo 2019
 * El problema de las religiones
 * Las persecuciones de los cristianos: ¿historia o mito?
 

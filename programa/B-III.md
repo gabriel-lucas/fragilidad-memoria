@@ -12,9 +12,9 @@ Todos los habitantes de este mundo, especialmente los que vivimos en Occidente, 
 
 
 
-UNA DEUDA IMPAGABLE. Primera sesión.
+Una deuda impagable. Primera sesión.
 -------------------------------------------
-  2 Marzo 2018
+  2 Marzo 2019
 * La herencia intangible
 * Libertad e individualidad
 * El derecho y la ley: procesos de repetundis
@@ -26,9 +26,9 @@ UNA DEUDA IMPAGABLE. Primera sesión.
 * Las XII tablas y el Estado de Derecho
 * Debate
 
-HUMANISMO Y EDUCACIÓN. Segunda sesión.
+Humanismo y educación. Segunda sesión.
 --------------------------------------
-  9 Marzo 2018
+  9 Marzo 2019
 * Filantropía
 * Paideía
 * Humanitas
@@ -38,9 +38,9 @@ HUMANISMO Y EDUCACIÓN. Segunda sesión.
 * La educación hoy
 * Debate
 
-UN LADO OSCURO: EL DESTIERRO SOCIAL DE LA MUJER. Tercera sesión.
+Un lado oscuro: el destierro social de la mujer. Tercera sesión.
 -----------------------------------------------------------------
-   16 Marzo 2018
+   16 Marzo 2019
 * El mito como arma
 * Modelos negativos: Helena, Antígona, Medea
 * Modelos positivos: Alcestis, Penélope
