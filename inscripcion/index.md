@@ -12,7 +12,7 @@ layout: page
         <label for="email">Correo electrónico</label>
         <input type="email" id="email"  name="email" required/>
         <label for="telefono">Teléfono</label>
-        <input type="telephone" id="telefono" name="telefono"/>
+        <input type="tel" id="telefono" name="telefono"/>
         <label for="opcion">Modalidad</label>
         <select name="opcion" onchange="updateCheckBox(this)">
         <option value="todo" selected>Taller completo</option>
@@ -22,24 +22,24 @@ layout: page
 
         <div class="a">
         <!--Bloques-->
-        <label name="bloque" class="div-invisible"><input type="checkbox" id="BI" value="BI"> Bloque I. La historia como magister vitae.</label>
-        <label name="bloque" class="div-invisible"><input type="checkbox" id="BII" value="BII"> Bloque II. Lenguaje e igualdad.</label>
-        <label name="bloque" class="div-invisible"><input type="checkbox" id="BIII" value="BIII"> Bloque III. El legado de Grecia y Roma.</label>
-        <label name="bloque" class="div-invisible"><input type="checkbox" id="BIV" value="BIV"> Bloque IV. La globalización de las ideas.</label>
+        <label name="bloque" class="div-invisible"><input type="checkbox" name="BI" value="BI"> Bloque I. La historia como magister vitae.</label>
+        <label name="bloque" class="div-invisible"><input type="checkbox" name="BII" value="BII"> Bloque II. Lenguaje e igualdad.</label>
+        <label name="bloque" class="div-invisible"><input type="checkbox" name="BIII" value="BIII"> Bloque III. El legado de Grecia y Roma.</label>
+        <label name="bloque" class="div-invisible"><input type="checkbox" name="BIV" value="BIV"> Bloque IV. La globalización de las ideas.</label>
 
         <!--Sesiones-->
-        <label name="sesion" class="div-invisible"><input type="checkbox" id="s1" value="s1"> Sesión 1. Memoria e ingenuidad.</label>
-        <label name="sesion" class="div-invisible"><input type="checkbox" id="s2" value="s2"> Sesión 2. Guerra y sociedad patriarcal.</label>
-        <label name="sesion" class="div-invisible"><input type="checkbox" id="s3" value="s3"> Sesión 3. La democracia velada. </label>
-        <label name="sesion" class="div-invisible"><input type="checkbox" id="s4" value="s4"> Sesión 4. La lengua como reflejo de la realidad.</label>
-        <label name="sesion" class="div-invisible"><input type="checkbox" id="s5" value="s5"> Sesión 5. ¿Un matriarcado oculto?</label>
-        <label name="sesion" class="div-invisible"><input type="checkbox" id="s6" value="s6"> Sesión 6. Una igualdad que perpetúa el modelo patriarcal.</label>
-        <label name="sesion" class="div-invisible"><input type="checkbox" id="s7" value="s7"> Sesión 7. Una deuda impagable.</label>
-        <label name="sesion" class="div-invisible"><input type="checkbox" id="s8" value="s8"> Sesión 8. Humanismo y educación.</label>
-        <label name="sesion" class="div-invisible"><input type="checkbox" id="s9" value="s9"> Sesión 9. Un lado oscuro: el destierro social de la mujer.</label>
-        <label name="sesion" class="div-invisible"><input type="checkbox" id="s10" value="s10"> Sesión 10. La mentalidad de la ciudad-estado.</label>
-        <label name="sesion" class="div-invisible"><input type="checkbox" id="s11" value="s11"> Sesión 11. La fragilidad de la memoria y el principio del fin.</label>
-        <label name="sesion" class="div-invisible"><input type="checkbox" id="s12" value="s12"> Sesión 12. Hacia la edad media.</label>
+        <label name="sesion" class="div-invisible"><input type="checkbox" name="s1" value="s1"> Sesión 1. Memoria e ingenuidad.</label>
+        <label name="sesion" class="div-invisible"><input type="checkbox" name="s2" value="s2"> Sesión 2. Guerra y sociedad patriarcal.</label>
+        <label name="sesion" class="div-invisible"><input type="checkbox" name="s3" value="s3"> Sesión 3. La democracia velada. </label>
+        <label name="sesion" class="div-invisible"><input type="checkbox" name="s4" value="s4"> Sesión 4. La lengua como reflejo de la realidad.</label>
+        <label name="sesion" class="div-invisible"><input type="checkbox" name="s5" value="s5"> Sesión 5. ¿Un matriarcado oculto?</label>
+        <label name="sesion" class="div-invisible"><input type="checkbox" name="s6" value="s6"> Sesión 6. Una igualdad que perpetúa el modelo patriarcal.</label>
+        <label name="sesion" class="div-invisible"><input type="checkbox" name="s7" value="s7"> Sesión 7. Una deuda impagable.</label>
+        <label name="sesion" class="div-invisible"><input type="checkbox" name="s8" value="s8"> Sesión 8. Humanismo y educación.</label>
+        <label name="sesion" class="div-invisible"><input type="checkbox" name="s9" value="s9"> Sesión 9. Un lado oscuro: el destierro social de la mujer.</label>
+        <label name="sesion" class="div-invisible"><input type="checkbox" name="s10" value="s10"> Sesión 10. La mentalidad de la ciudad-estado.</label>
+        <label name="sesion" class="div-invisible"><input type="checkbox" name="s11" value="s11"> Sesión 11. La fragilidad de la memoria y el principio del fin.</label>
+        <label name="sesion" class="div-invisible"><input type="checkbox" name="s12" value="s12"> Sesión 12. Hacia la edad media.</label>
         </div>
         <br>
         <input type="submit" value="Inscribirse" id="submit"/>
