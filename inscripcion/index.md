@@ -49,30 +49,33 @@ layout: page
     <input type="hidden" name='redirect_to' value="/path/to/thank-you.html"/>
 
 </form></div>
+<br>
+<br>
+<h4>Existen tres modalidades de inscripción:</h4>
 
-Existen tres modalidades de inscripción:
+<br>
+<h4>- Taller completo</h4>
 
-* Taller completo.
+12 encuentros. Sábados desde el 19 de enero hasta 6 de abril 2019 incluídos - 300 euros
 
-El taller completo son doce encuentros: sábados del 19 de Enero del 2019 al 6 de Abril incluídos - 300 euros
+<br>
+<h4>- Inscripción por bloque</h4>
 
-* Inscripción por bloque.
+[Bloque I : La historia como magister vitae]({{ site.baseurl }}{% link programa/B-I.md %}) 19 y 26 de enero, 2 de febrero 2019.
 
-El taller está pensado en cuatro bloques temáticos.
+[Bloque II:Lenguaje e igualdad.]({{ site.baseurl }}{% link programa/B-II.md %}) 9, 16 y 23 de febrero  2019.
 
-[Bloque I : La historia como magister vitae]({{ site.baseurl }}{% link programa/B-I.md %}) 19 y 26 de enero 2019, 2 de febrero 2019
+[Bloque III: El legado de Grecia y Roma.]({{ site.baseurl }}{% link programa/B-III.md %}) 2, 9 y 16 de marzo 2019.
 
-[Bloque II:Lenguaje e igualdad.]({{ site.baseurl }}{% link programa/B-II.md %}) 9, 16 y 23 de febrero
-
-[Bloque III: El legado de Grecia y Roma.]({{ site.baseurl }}{% link programa/B-III.md %}) 2, 9 y 16 de marzo
-
-[Bloque IV: La globalización de las ideas.]({{ site.baseurl }}{% link programa/B-IV.md %}) 23 y 30 de marzo, 6 abril.
+[Bloque IV: La globalización de las ideas.]({{ site.baseurl }}{% link programa/B-IV.md %}) 23 y 30 de marzo, 6 abril 2019.
 
 150 euros por bloque
 
-* Inscripción por sesión.
+<br>
+<h4>- Inscripción por sesión</h4>
 
 Se puede asistir a sesiones individuales.
 50 euros.
 
+<br>
 El taller tiene plazas limitadas y se dará prioridad a las personas que estén interesadas en el curso completo. Una vez elegida la modalidad de inscripción, para formalizarla, escríbenos al mail: <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
