@@ -1,5 +1,5 @@
 // Activa el menu
-window.onready = function() {
+window.onload = function() {
   // Mostrar hamburguesa
   let mainNav = document.getElementById('js-menu');
   let navBarToggle = document.getElementById('js-navbar-toggle');
@@ -10,7 +10,6 @@ window.onready = function() {
   // Pasafotos
   $(function() {
     $( '.cycle-slideshow' ).on( 'cycle-before', function( event, opts ) {
-      console.log( "on after!" );
       //$('.cycle-slideshow').cycle('next');
       // your event handler code here
       // argument opts is the slideshow's option hash

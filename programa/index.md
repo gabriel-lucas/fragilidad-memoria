@@ -10,14 +10,17 @@ Sólo somos lo que hemos sido, nunca lo que somos; jamás lo que seremos. Estamo
 
 
 [Bloque I - LA HISTORIA COMO MAGISTER VITAE]({{ site.baseurl }}{% link programa/B-I.md %})
-{: style="color:gray; font-size: 100%; text-align: center;"}
+-- 19 y 26 de enero, 2 de febrero 2019.
+{: style="color:gray; font-size: 100%; text-align: left;"}
 
 [Bloque II - LENGUAJE E IGUALDAD]({{ site.baseurl }}{% link programa/B-II.md %})
-{: style="color:gray; font-size: 100%; text-align: center;"}
+-- 9, 16 y 23 de febrero 2019.
+{: style="color:gray; font-size: 100%; text-align: left;"}
 
 [Bloque III - LA INCALCULABLE HERENCIA DE GRECIA Y ROMA]({{ site.baseurl }}{% link programa/B-III.md %})
-{: style="color:gray; font-size: 100%; text-align: center;"}
-
+-- 2, 9 y 16 de marzo 2019.
+{: style="color:gray; font-size: 100%; text-align: left;"}
 
 [Bloque IV - LA GLOBALIZACIÓN DE LAS IDEAS]({{ site.baseurl }}{% link programa/B-IV.md %})
-{: style="color:gray; font-size: 100%; text-align: center;"}
+-- 23 y 30 de marzo, 6 abril 2019. 
+{: style="color:gray; font-size: 100%; text-align: left;"}

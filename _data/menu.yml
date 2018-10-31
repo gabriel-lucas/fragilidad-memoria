@@ -6,5 +6,5 @@
   url: "/ponente/"
 - name: Inscripción
   url: "/inscripcion"
-- name: Contacto
-  url: "/contacto/"
+- name: Localización
+  url: "/localizacion/"
