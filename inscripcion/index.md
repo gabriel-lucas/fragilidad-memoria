@@ -22,7 +22,7 @@ Precio: 120€ por bloque.<br>
 
 <h4><b>Inscripción sesión individual</b></h4>
 
-Precio: 50€
+Precio: 50€ por sesion.
 
 <br>
 <div style="border-radius: 5px;background-color: #f2f2f2;padding: 20px;">
