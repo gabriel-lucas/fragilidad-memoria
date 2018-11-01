@@ -51,3 +51,28 @@ function updateCheckBox(opts) {
         }
       }
   };
+
+
+// Formulario.
+$(document).ready(function() {
+
+  // process the form
+  $('form').submit(function(event) {
+        event.preventDefault();
+        var href = $(this).attr("action");
+
+        $.ajax({
+            type: "POST",
+            dataType: "json",
+            url: href,
+            data: $(this).serialize(),
+            success: function(response){
+                if(response.status == "success"){
+                    window.location.href = 'https://fragilidadmemoria.es/inscripcion/inscripcion1.html'; // change this.
+                }else{
+                    alert("Ocurrió un error. Por favor vuelve a intentarlo o sino escríbenos a fragilidadmemoria@protonmail.com. Muchas gracias.");
+                }
+            }
+        });
+    });
+});

@@ -14,7 +14,7 @@ layout: page
 <body>
   <!--<span style="font-size:19px;">Correo: <a class="u-email" href="mailto:fragilidadmemoria@protonmail.com">fragilidadmemoria@protonmail.com</a></span>-->
 
-	Las sesiones tendrán lugar en <b>"El Umbral de primavera" C\ de la primavera 11</b>	<br>Metro: Lavapiés
+	Las sesiones se realizarán de 11:00 a 13:00 en <b>"El Umbral de primavera" C\ de la primavera 11 </b>
 	<p></p>
 	<div id="mapid" style="width: 100%; height: 400px;"></div>
 	<a href="http://elumbraldeprimavera.com/"><img style="max-width:100%;" src="/assets/images/logo-umbral.png"></a>
@@ -38,8 +38,14 @@ layout: page
     shadowAnchor: [4, 62],  // the same for the shadow
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
 	});
-	L.marker([40.4095115,-3.7004024], {icon: umbralIcon}).addTo(mymap).bindPopup('<a href="http://elumbraldeprimavera.com/">El Umbral de Primavera</a>');
+	var metroIcon = L.icon({
+    iconUrl: '/assets/images/metro.png',
 
+		iconSize:     [22, 16], // size of the icon
+    iconAnchor:   [22, 16], // point of the icon which will correspond to marker's location
+	});
+	L.marker([40.4095115,-3.7004024], {icon: umbralIcon}).addTo(mymap).bindPopup('<a href="http://elumbraldeprimavera.com/">El Umbral de Primavera</a>');
+	L.marker([40.408486,-3.700822], {icon: metroIcon}).addTo(mymap);
 </script>
 </body>
 </html>

@@ -2,8 +2,31 @@
 layout: page
 ---
 
+<h4>Existen tres modalidades de inscripción:</h4>
+
+<h4><b>Taller completo</b></h4>
+12 encuentros.<br>
+Sábados desde el 19 de enero hasta 6 de abril 2019 incluídos.<br>
+Precio:  300€
+
+<h4><b>Inscripción por bloque</b></h4>
+[Bloque I : La historia como magister vitae]({{ site.baseurl }}{% link programa/B-I.md %}) 19 y 26 de enero, 2 de febrero 2019.
+
+[Bloque II:Lenguaje e igualdad.]({{ site.baseurl }}{% link programa/B-II.md %}) 9, 16 y 23 de febrero  2019.
+
+[Bloque III: El legado de Grecia y Roma.]({{ site.baseurl }}{% link programa/B-III.md %}) 2, 9 y 16 de marzo 2019.
+
+[Bloque IV: La globalización de las ideas.]({{ site.baseurl }}{% link programa/B-IV.md %}) 23 y 30 de marzo, 6 abril 2019.
+
+Precio: 120€ por bloque.<br>
+
+<h4><b>Inscripción sesión individual</b></h4>
+
+Precio: 50€
+
+<br>
 <div style="border-radius: 5px;background-color: #f2f2f2;padding: 20px;">
-<form accept-charset="UTF-8" action="https://usebasin.com/f/fe1490925bf6" method="post">
+<form accept-charset="UTF-8" action="https://formcarry.com/s/5pYNQCAMaX1" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
         <label for="nombre">Nombre</label>
         <input type="text" id="nombre" name="nombre" required/>
@@ -18,6 +41,7 @@ layout: page
         <option value="todo" selected>Taller completo</option>
         <option value="bloques">Por bloques</option>
         <option value="sesiones">Por sesiones</option>
+        <input type="hidden" name="_gotcha">
         </select>
 
         <div class="a">
@@ -49,33 +73,8 @@ layout: page
     <input type="hidden" name='redirect_to' value="https://fragilidadmemoria/inscripcion/inscripcion1.html"/>
 
 </form></div>
-<br>
-<br>
-<h4>Existen tres modalidades de inscripción:</h4>
 
-<br>
-<h4>- Taller completo</h4>
+<br><br>
+Es necesario realizar la reserva de plaza para la inscripción del curso completo y por bloques individuales.<br>
 
-12 encuentros. Sábados desde el 19 de enero hasta 6 de abril 2019 incluídos - 300 euros
-
-<br>
-<h4>- Inscripción por bloque</h4>
-
-[Bloque I : La historia como magister vitae]({{ site.baseurl }}{% link programa/B-I.md %}) 19 y 26 de enero, 2 de febrero 2019.
-
-[Bloque II:Lenguaje e igualdad.]({{ site.baseurl }}{% link programa/B-II.md %}) 9, 16 y 23 de febrero  2019.
-
-[Bloque III: El legado de Grecia y Roma.]({{ site.baseurl }}{% link programa/B-III.md %}) 2, 9 y 16 de marzo 2019.
-
-[Bloque IV: La globalización de las ideas.]({{ site.baseurl }}{% link programa/B-IV.md %}) 23 y 30 de marzo, 6 abril 2019.
-
-150 euros por bloque
-
-<br>
-<h4>- Inscripción por sesión</h4>
-
-Se puede asistir a sesiones individuales.
-50 euros.
-
-<br>
-El taller tiene plazas limitadas y se dará prioridad a las personas que estén interesadas en el curso completo. Una vez elegida la modalidad de inscripción, para formalizarla, escríbenos al mail: <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+El taller tiene plazas limitadas y se dará prioridad a las personas que estén interesadas en el curso completo.
