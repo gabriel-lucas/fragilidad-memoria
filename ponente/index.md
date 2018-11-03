@@ -22,5 +22,5 @@ Es autor de los libros:
 Ha publicado numerosos artículos, en revistas como Aularium, Clío, MUY Historia y, entre los años 2003 y 2008, el autor escribió más de doscientos artículos en la citada y desaparecida revista <i>La Clave</i>.
 En la actualidad prepara el tercer volumen de <i>El rayo y la espada</i> y un libro sobre la leyenda de Ulises, ambos para Alianza Editorial.
 
-[Página web](bernardosouviron.com)<br>
+[Página web](http://bernardosouviron.com)<br>
   [Vídeos](https://www.youtube.com/results?search_query=%22bernardo+souviron%22)
