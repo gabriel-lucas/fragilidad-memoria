@@ -13,7 +13,7 @@ La lengua como reflejo de la realidad. Primera sesión.
 ------------------------------------------------------
   9 Febrero 2019
 
-* La psyché de los pueblos
+* La <i>psyché</i> de los pueblos
 * Lenguas clásicas y lenguas modernas
 * La formación de palabra
 

@@ -2,7 +2,7 @@
 layout: page
 ---
 
-LA HISTORIA COMO MAGISTER VITAE - BLOQUE I
+LA HISTORIA COMO <i>MAGISTER VITAE</i> - BLOQUE I
 =========================================
 
 ![Imagen](/assets/images/1.jpg "Titulo")
@@ -55,7 +55,7 @@ La democracia velada. Tercera sesión.
 2 Febrero 2019
 
 
-* Las sociedades gentilicias: gens y génos
+* Las sociedades gentilicias: <i>gens</i> y <i>génos</i>
 * Ataque a las sociedades gentilicias: la democracia ateniense y la república romana
 
 * La secesión plebeya en la Roma del siglo V a. C.

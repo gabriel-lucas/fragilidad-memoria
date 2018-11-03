@@ -28,7 +28,7 @@ La fragilidad de la memoria y el principio del fin. Segunda sesión.
 -------------------------------------------------------------------
    30 Marzo 2019
 * Caída de la república romana
-* El concepto de Imperium
+* El concepto de <i>Imperium</i>
 * El emperador dios
 * Provincias: ¿administración o explotación?
 

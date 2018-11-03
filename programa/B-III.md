@@ -30,8 +30,8 @@ Humanismo y educación. Segunda sesión.
 --------------------------------------
   9 Marzo 2019
 * Filantropía
-* Paideía
-* Humanitas
+* <i>Paideía</i>
+* <i>Humanitas</i>
 
 * Las humanidades clásicas
 * Las nuevas humanidades
