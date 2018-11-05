@@ -138,6 +138,11 @@ $on-laptop:        800px !default;
     }
 }
 //---------------------
+.cycle-slideshow{
+  display:none;
+  position: relative;
+  top: -30px;
+}
 
 .sample{
    font-family: 'Alegreya';
@@ -160,10 +165,7 @@ $on-laptop:        800px !default;
    color: black;
    font-size: 17px;
 }
-.cycle-slideshow{
-  position: relative;
-  top: -30px;
-}
+
 
 // Flechas sección bloques. Alinear la flecha y el texto.
 .align_right {
@@ -198,6 +200,7 @@ $on-laptop:        800px !default;
   padding-top:12px;
   padding-left:30px;
 }
+
 
 //label.div-visible input[type=checkbox]{
 //}

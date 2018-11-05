@@ -15,7 +15,24 @@ window.onload = function() {
       // argument opts is the slideshow's option hash
     });
   });
+
+  // shader
+  var canvas = document.getElementById("glslCanvas");
+  var sandbox = new GlslCanvas(canvas);
+  canvas.style.width = '100%';
+  canvas.style.height = '100%';
+
+  var slide = document.getElementsByClassName("cycle-slideshow");
+  setTimeout(showSlide, 25000);//25000);
+
+  function showSlide(){
+    canvas.style.display="none";
+    console.log("hola");
+    slide[0].style.display="block";
+    $( '.cycle-slideshow' ).cycle();
+  }
 }
+
 
 // Opciones inscripción
 

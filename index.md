@@ -2,7 +2,8 @@
 layout: page
 order: 1
 ---
-  <div class="cycle-slideshow" data-cycle-fx="fadeout"  data-cycle-speed="3000">
+  <canvas id="glslCanvas" data-fragment-url="/assets/shaders/moon.frag" width="800" height="600" data-textures="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/data/moon.jpg"></canvas>
+  <div class="cycle-slideshow" data-cycle-fx="fadeout" data-cycle-speed="3000">
         <img src="assets/images/0.jpg">
         <img src="assets/images/iliada.jpg">
         <img src="assets/images/1-bw.jpg">
