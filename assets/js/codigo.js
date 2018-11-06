@@ -23,13 +23,14 @@ window.onload = function() {
   canvas.style.height = '100%';
 
   var slide = document.getElementsByClassName("cycle-slideshow");
+  $( '.cycle-slideshow' ).cycle('pause');
   setTimeout(showSlide, 25000);//25000);
 
   function showSlide(){
     canvas.style.display="none";
     console.log("hola");
     slide[0].style.display="block";
-    $( '.cycle-slideshow' ).cycle();
+    $( '.cycle-slideshow' ).cycle('resume');
   }
 }
 
