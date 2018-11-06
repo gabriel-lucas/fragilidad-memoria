@@ -69,3 +69,8 @@ La democracia velada. Tercera sesión.
 [Bloque II]({{ site.baseurl }}{% link programa/B-II.md %})
 
 [<img src="/assets/images/oar.png"/>{:.flip}{:.align_right_bottom}]({{ site.baseurl }}{% link programa/B-II.md %})
+
+<br>
+<br>
+<br>
+<hr>

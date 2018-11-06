@@ -24,3 +24,5 @@ En la actualidad prepara el tercer volumen de <i>El rayo y la espada</i> y un li
 
 [Página web](http://bernardosouviron.com)<br>
   [Vídeos](https://www.youtube.com/results?search_query=%22bernardo+souviron%22)
+
+  <hr>

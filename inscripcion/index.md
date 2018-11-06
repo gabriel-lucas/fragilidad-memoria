@@ -77,3 +77,6 @@ Existen tres modalidades de inscripción:
 Es necesario realizar la reserva de plaza para la inscripción del curso completo y por bloques individuales.<br>
 
 El taller tiene plazas limitadas y se dará prioridad a las personas que estén interesadas en el curso completo.
+
+<br>
+<hr>

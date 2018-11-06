@@ -59,3 +59,8 @@ Una igualdad que perpetúa el modelo patriarcal. Tercera sesión.
 
 [<img src="/assets/images/oar.png"/>{:.align_left_bottom}]({{ site.baseurl }}{% link programa/B-I.md %})
 [<img src="/assets/images/oar.png"/>{:.flip}{:.align_right_bottom}]({{ site.baseurl }}{% link programa/B-III.md %})
+
+<br>
+<br>
+<br>
+<hr>

@@ -57,3 +57,8 @@ Un lado oscuro: el destierro social de la mujer. Tercera sesión.
 
 [<img src="/assets/images/oar.png"/>{:.align_left_bottom}]({{ site.baseurl }}{% link programa/B-II.md %})
 [<img src="/assets/images/oar.png"/>{:.flip}{:.align_right_bottom}]({{ site.baseurl }}{% link programa/B-IV.md %})
+
+<br>
+<br>
+<br>
+<hr>

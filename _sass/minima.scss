@@ -248,3 +248,11 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
+hr {
+  display:block;
+  border:0px;
+  height:10px;
+  background-image:url('/assets/images/separador.png');
+  width: 100%;
+}
