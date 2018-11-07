@@ -31,6 +31,9 @@ window.onload = function() {
     console.log("hola");
     slide[0].style.display="block";
     $( '.cycle-slideshow' ).cycle('resume');
+    //$('.cycle-slideshow img:first').fadeOut(3000, function() {
+    //    $('.cycle-slideshow').cycle('resume');
+    //});
   }
 }
 
