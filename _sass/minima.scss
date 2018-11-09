@@ -138,11 +138,7 @@ $on-laptop:        800px !default;
     }
 }
 //---------------------
-.cycle-slideshow{
-  display:none;
-  position: relative;
-  top: 30px;
-}
+
 
 .sample{
    font-family: 'Alegreya';
@@ -163,7 +159,15 @@ $on-laptop:        800px !default;
 .texto-footer{
    font-family: 'Alegreya';
    color: black;
-   font-size: 17px;
+   font-size: 16px;
+}
+.p-name{
+   font-size: 11.4px;
+}
+.u-email{
+   //font-family: 'Alegreya';
+   //color: black;
+   font-size: 13px;
 }
 
 
@@ -204,6 +208,25 @@ $on-laptop:        800px !default;
 
 //label.div-visible input[type=checkbox]{
 //}
+
+
+//slideshow
+.pics img
+{ display: none;
+  width: 100%;
+  height: auto;
+}
+#slideshow img {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+#slideshow{
+  display:none;
+  position: relative;
+  top:30px;
+}
 
 
 // Formulario

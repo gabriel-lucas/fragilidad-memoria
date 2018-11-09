@@ -5,11 +5,15 @@ layout: page
 Existen tres modalidades de inscripción:
 
 <h4><b>Taller completo</b></h4>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sábados de 11:00 a 13:00, desde el 19 de enero hasta 6 de abril 2019 incluídos.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12 encuentros.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sábados desde el 19 de enero hasta 6 de abril 2019 incluídos.<br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Precio:  300€
 
 <h4><b>Inscripción por bloque</b></h4>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[Bloque I:La historia como <i>magister vitae</i>.]({{ site.baseurl }}{% link programa/B-I.md %}) 19 y 26 de enero, 2 de febrero 2019.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [Bloque II:Lenguaje e igualdad.]({{ site.baseurl }}{% link programa/B-II.md %}) 9, 16 y 23 de febrero  2019.
 

@@ -9,11 +9,11 @@ window.onload = function() {
 
   // Pasafotos
   $(function() {
-    $( '.cycle-slideshow' ).on( 'cycle-before', function( event, opts ) {
+    //$( '.cycle-slideshow' ).on( 'cycle-before', function( event, opts ) {
       //$('.cycle-slideshow').cycle('next');
       // your event handler code here
       // argument opts is the slideshow's option hash
-    });
+    //});
   });
 
   // shader
@@ -22,15 +22,22 @@ window.onload = function() {
   canvas.style.width = '100%';
   canvas.style.height = '100%';
 
-  var slide = document.getElementsByClassName("cycle-slideshow");
-  $( '.cycle-slideshow' ).cycle('pause');
+  //var slide = document.getElementsByClassName("cycle-slideshow");
+  //  $( '.cycle-slideshow' ).cycle('pause');
+  $('#slideshow').cycle('pause');
+
   setTimeout(showSlide, 25000);//25000);
 
   function showSlide(){
     canvas.style.display="none";
     console.log("hola");
-    slide[0].style.display="block";
-    $( '.cycle-slideshow' ).cycle('resume');
+    $('#slideshow').css("display", "block"); //.style.display="block";
+    //$('#slideshow').cycle('resume');
+    $('#slideshow img:first').fadeIn(5000, function() {
+  	      $('#slideshow').cycle();
+      });
+    //slide[0].style.display="block";
+    //$( '.cycle-slideshow' ).cycle('resume');
     //$('.cycle-slideshow img:first').fadeOut(3000, function() {
     //    $('.cycle-slideshow').cycle('resume');
     //});
