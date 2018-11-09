@@ -34,7 +34,7 @@ window.onload = function() {
     $('#slideshow').css("display", "block"); //.style.display="block";
     //$('#slideshow').cycle('resume');
     $('#slideshow img:first').fadeIn(5000, function() {
-  	      $('#slideshow').cycle();
+  	      $('#slideshow').cycle({speed:3500});
       });
     //slide[0].style.display="block";
     //$( '.cycle-slideshow' ).cycle('resume');
