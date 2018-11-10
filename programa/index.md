@@ -10,6 +10,8 @@ layout: page
 El curso consiste en doce encuentros agrupados en cuatros bloques temáticos.<br>
 Estos encuentros se realizarán <b>los sábados, en horario de 11:00 a 13:00, desde el 19 de enero al 6 de abril incluidos</b> y tendrán lugar en la sala [Umbral de privamera]({{ site.baseurl }}/localizacion/).
 <br>
+Existe la opción de seguir el curso por streaming para aquellas personas que no puedan asistir presencialmente.
+<br>
 
 [Bloque I - LA HISTORIA COMO <i>MAGISTER VITAE</i>]({{ site.baseurl }}{% link programa/B-I.md %})
 -- 19 y 26 de enero, 2 de febrero 2019.

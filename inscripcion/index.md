@@ -69,6 +69,9 @@ Existen tres modalidades de inscripción:
         <label name="sesion" class="div-invisible"><input type="checkbox" name="s12" value="s12"> Sesión 12. Hacia la edad media.</label>
         </div>
         <br>
+        <input type="checkbox" id="streaming" name="streaming"/>
+        Marca esta casilla si estás interesado en seguir el curso por streaming.
+        <br><br>
         <input type="submit" value="Inscribirse" id="submit"/>
 
    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
@@ -77,10 +80,6 @@ Existen tres modalidades de inscripción:
 
 </form></div>
 
-<br><br>
-Es necesario realizar la reserva de plaza para la inscripción del curso completo y por bloques individuales.<br>
-
-El taller tiene plazas limitadas y se dará prioridad a las personas que estén interesadas en el curso completo.
 
 <br>
 <hr>
