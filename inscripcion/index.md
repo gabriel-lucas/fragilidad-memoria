@@ -27,6 +27,11 @@ Existen tres modalidades de inscripción:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Precio: 50€ por sesion.
 
+<hr>
+<br>
+<!--<img src="/assets/images/tuba.png" alt="Telégrafo acústico antigua grecia" /><br>-->
+Para aquellas personas que no puedan asistir presencialmente, a parte o al curso completo, existe la posibilidad de seguir el curso por streaming. Puedes escribirnos para más información.
+<hr>
 <br>
 <div style="border-radius: 5px;background-color: #f2f2f2;padding: 20px;">
 <form accept-charset="UTF-8" action="https://formcarry.com/s/5pYNQCAMaX1" method="post">
