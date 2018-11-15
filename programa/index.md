@@ -12,6 +12,9 @@ Estos encuentros se realizarán <b>los sábados, en horario de 11:00 a 13:00, de
 <br>
 Existe la opción de seguir el curso por streaming para aquellas personas que no puedan asistir presencialmente.
 <br>
+<hr>
+<br>
+
 
 [Bloque I - LA HISTORIA COMO <i>MAGISTER VITAE</i>]({{ site.baseurl }}{% link programa/B-I.md %})
 -- 19 y 26 de enero, 2 de febrero 2019.

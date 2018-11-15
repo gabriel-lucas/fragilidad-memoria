@@ -8,3 +8,4 @@ order: 1
     <img src="/assets/images/slide2.jpg">
     <img src="/assets/images/slide3.jpg">
   </div>
+  <br>

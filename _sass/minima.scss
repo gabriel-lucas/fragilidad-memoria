@@ -212,14 +212,14 @@ $on-laptop:        800px !default;
 
 //slideshow
 .pics img
-{ display: none;
+{
+  display: none;
   width: 100%;
-  height: auto;
 }
 #slideshow img {
   display: none;
   width: 100%;
-  height: auto;
+  //height: auto;
 }
 
 #slideshow{
@@ -278,4 +278,16 @@ hr {
   height:10px;
   background-image:url('/assets/images/separador.png');
   width: 100%;
+}
+
+#centrarTexto {
+    margin:auto;
+    width:60%;
+    text-align:left;
+    padding: 10px;
+}
+
+#right {
+    float:right;
+    width:70%;
 }
