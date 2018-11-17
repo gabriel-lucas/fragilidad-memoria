@@ -21,7 +21,7 @@ Hace dos mil quinientos años, el historiador ateniense Tucídides escribió que
 
 Para los antiguos griegos, en efecto, la historia era fundamentalmente una secuencia dramática de acontecimientos que, frecuentemente, escapaban al control de sus protagonistas. Por eso creían firmemente que la historia es la maestra de la vida. Con esta idea escribieron obras y construyeron teorías, en la creencia de que las generaciones sucesivas podían aprender de sus errores y de sus aciertos. Pero, con la perspectiva de quienes vivimos hoy ¿es, en realidad, la historia nuestra maestra? ¿La historia se repite? ¿Nos sirve la experiencia de quienes vivieron antes que nosotros?
 
-Memoria e ingenuidad. Primera sesión.
+<a class="nostyle" id="sesion1">Sesión 1. Memoria e ingenuidad.</a>
 ------------------------------------------
   19 Enero 2019
 
@@ -36,7 +36,7 @@ Memoria e ingenuidad. Primera sesión.
 * La tecnología: un arma manejada por adolescentes
 * Debate
 
-Guerra y sociedad patriarcal. Segunda sesión.
+<a class="nostyle" id="sesion2">Sesión 2. Guerra y sociedad patriarcal.</a>
 ----------------------------------------------------
 26 Enero 2019
 
@@ -50,7 +50,7 @@ Guerra y sociedad patriarcal. Segunda sesión.
 * La resistencia de la lengua al modelo patriarcal
 * Debate
 
-La democracia velada. Tercera sesión.
+<a class="nostyle" id="sesion3">Sesión 3. La democracia velada.</a>
 --------------------------------------------
 2 Febrero 2019
 

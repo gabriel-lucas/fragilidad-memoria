@@ -9,7 +9,7 @@ LENGUAJE E IGUALDAD - BLOQUE II
 
 Vivimos tiempos en que la palabra igualdad es utilizada a diario, en todo tipo de contextos. En realidad, es una palabra que define bien uno de los rasgos fundamentales del tiempo que vivimos: la reivindicación femenina de su papel en el modelo de sociedad patriarcal. En mi opinión, sin embargo, el éxito del modelo indoeuropeo de sociedad patriarcal (impuesto hace aproximadamente tres mil seiscientos años) ha ido mucho más allá de lo que sus propios inductores imaginaron. Y así, en nuestros días, muchas mujeres (a cuya costa se construyó tal sociedad) han asumido e interiorizado ese modelo incluso cuando creen oponerse a él.
 
-La lengua como reflejo de la realidad. Primera sesión.
+<a class="nostyle" id="sesion4">Sesión 4. La lengua como reflejo de la realidad.</a>
 ------------------------------------------------------
   9 Febrero 2019
 
@@ -22,7 +22,7 @@ La lengua como reflejo de la realidad. Primera sesión.
 * La supervivencia en la lengua de modelos prepatriarcales
 * Debate
 
-¿Un matriarcado oculto? Segunda sesión.
+<a class="nostyle" id="sesion5">Sesión 5. ¿Un matriarcado oculto?</a>
 ----------------------------------------
   16 Febrero 2019
 
@@ -36,7 +36,7 @@ La lengua como reflejo de la realidad. Primera sesión.
 * Las lenguas flexivas. Léxico y gramática
 * Debate
 
-Una igualdad que perpetúa el modelo patriarcal. Tercera sesión.
+<a class="nostyle" id="sesion6">Sesión 6. Una igualdad que perpetúa el modelo patriarcal.</a>
 ---------------------------------------------------------------
    23 Febrero 2019
 

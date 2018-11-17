@@ -12,7 +12,7 @@ Todos los habitantes de este mundo, especialmente los que vivimos en Occidente, 
 
 
 
-Una deuda impagable. Primera sesión.
+<a class="nostyle" id="sesion7">Sesión 7. Una deuda impagable.</a>
 -------------------------------------------
   2 Marzo 2019
 * La herencia intangible
@@ -26,7 +26,7 @@ Una deuda impagable. Primera sesión.
 * Las XII tablas y el Estado de Derecho
 * Debate
 
-Humanismo y educación. Segunda sesión.
+<a class="nostyle" id="sesion8">Sesión 8. Humanismo y educación.</a>
 --------------------------------------
   9 Marzo 2019
 * Filantropía
@@ -38,7 +38,7 @@ Humanismo y educación. Segunda sesión.
 * La educación hoy
 * Debate
 
-Un lado oscuro: el destierro social de la mujer. Tercera sesión.
+<a class="nostyle" id="sesion9">Sesión 9. Un lado oscuro: el destierro social de la mujer.</a>
 -----------------------------------------------------------------
    16 Marzo 2019
 * El mito como arma

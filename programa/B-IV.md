@@ -12,7 +12,7 @@ Desde la antigua Atenas (cuna de la democracia) hasta los Estados Unidos de Amé
 
 
 
-La mentalidad de la ciudad-estado. Primera sesión.
+<a class="nostyle" id="sesion10">Sesión 10. La mentalidad de la ciudad-estado.</a>
 --------------------------------------------------
    23 Marzo 2019
 * La confederación ateniense
@@ -24,7 +24,7 @@ La mentalidad de la ciudad-estado. Primera sesión.
 * Estados Unidos
 * Debate
 
-La fragilidad de la memoria y el principio del fin. Segunda sesión.
+<a class="nostyle" id="sesion11">Sesión 11. La fragilidad de la memoria y el principio del fin.</a>
 -------------------------------------------------------------------
    30 Marzo 2019
 * Caída de la república romana
@@ -37,7 +37,7 @@ La fragilidad de la memoria y el principio del fin. Segunda sesión.
 * Aparición del cristianismo: una religión excluyente
 * Debate
 
-Hacia la edad media. Tercera sesión.
+<a class="nostyle" id="sesion12">Sesión 12. Hacia la edad media.</a>
 -----------------------------------
    6 Marzo 2019
 * El problema de las religiones

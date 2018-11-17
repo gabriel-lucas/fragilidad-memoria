@@ -2,14 +2,12 @@
 layout: page
 ---
 
-Existen tres modalidades de inscripción:
+Para facilitar la asistencia se han pensado tres modalidades de inscripción:
 
-<h4><b>Taller completo</b></h4>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sábados de 11:00 a 13:00, desde el 19 de enero hasta 6 de abril 2019 incluídos.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12 encuentros.<br>
+<h4><b>Inscripción sesión individual</b></h4>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Precio: 40€ por sesion.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Precio:  300€
-
+<br>
 <h4><b>Inscripción por bloque</b></h4>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [Bloque I:La historia como <i>magister vitae</i>.]({{ site.baseurl }}{% link programa/B-I.md %}) 19 y 26 de enero, 2 de febrero 2019.
@@ -21,11 +19,13 @@ Existen tres modalidades de inscripción:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bloque IV: La globalización de las ideas.]({{ site.baseurl }}{% link programa/B-IV.md %}) 23 y 30 de marzo, 6 abril 2019.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Precio: 120€ por bloque.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Precio: 100€ por bloque ( 3 sesiones ).<br>
 
-<h4><b>Inscripción sesión individual</b></h4>
+<br>
+<h4><b>Taller completo</b></h4>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sábados de 11:00 a 13:00, desde el 19 de enero hasta 6 de abril 2019 incluídos.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Precio: 50€ por sesion.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Precio:  300€ ( 12 sesiones ).
 
 <hr>
 <br>

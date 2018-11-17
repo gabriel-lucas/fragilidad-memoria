@@ -291,3 +291,16 @@ hr {
     float:right;
     width:70%;
 }
+
+.nostyle {
+    font-size: 22px;
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}

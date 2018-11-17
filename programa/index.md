@@ -8,29 +8,22 @@ layout: page
 <hr>
 <br>
 El curso consiste en doce encuentros agrupados en cuatros bloques temáticos.<br>
-Estos encuentros se realizarán <b>los sábados, en horario de 11:00 a 13:00, desde el 19 de enero al 6 de abril incluidos</b> y tendrán lugar en la sala [Umbral de privamera]({{ site.baseurl }}/localizacion/).
+Estos encuentros se realizarán <b>los sábados, en horario de 11:00 a 13:00, desde el 19 de enero al 6 de abril de 2019, ambos incluidos</b> y tendrán lugar en la sala [Umbral de privamera]({{ site.baseurl }}/localizacion/).
 <br>
 Existe la opción de seguir el curso por streaming para aquellas personas que no puedan asistir presencialmente.
 <br>
 <hr>
 <br>
 
-
-[Bloque I - LA HISTORIA COMO <i>MAGISTER VITAE</i>]({{ site.baseurl }}{% link programa/B-I.md %})
--- 19 y 26 de enero, 2 de febrero 2019.
-{: style="color:gray; font-size: 100%; text-align: left;"}
-
-[Bloque II - LENGUAJE E IGUALDAD]({{ site.baseurl }}{% link programa/B-II.md %})
--- 9, 16 y 23 de febrero 2019.
-{: style="color:gray; font-size: 100%; text-align: left;"}
-
-[Bloque III - LA INCALCULABLE HERENCIA DE GRECIA Y ROMA]({{ site.baseurl }}{% link programa/B-III.md %})
--- 2, 9 y 16 de marzo 2019.
-{: style="color:gray; font-size: 100%; text-align: left;"}
-
-[Bloque IV - LA GLOBALIZACIÓN DE LAS IDEAS]({{ site.baseurl }}{% link programa/B-IV.md %})
--- 23 y 30 de marzo, 6 abril 2019.
-{: style="color:gray; font-size: 100%; text-align: left;"}
+<div id="centrarTexto" style="width:70%;">
+<a href="{{ site.baseurl }}{% link programa/B-I.md %}">Bloque I - LA HISTORIA COMO <i>MAGISTER VITAE</i></a>
+<br>
+<a href="{{ site.baseurl }}{% link programa/B-II.md %}">Bloque II - LENGUAJE E IGUALDAD</a>
+<br>
+<a href="{{ site.baseurl }}{% link programa/B-III.md %}">Bloque III - LA INCALCULABLE HERENCIA DE GRECIA Y ROMA.</a>
+<br>
+<a href="{{ site.baseurl }}{% link programa/B-IV.md %}">Bloque IV - LA GLOBALIZACIÓN DE LAS IDEAS</a>
+</div>
 
 <br>
 <hr>
