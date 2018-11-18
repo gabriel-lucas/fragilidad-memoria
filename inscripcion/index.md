@@ -2,37 +2,55 @@
 layout: page
 ---
 
-Para facilitar la asistencia se han pensado tres modalidades de inscripción:
+<!--Para facilitar la asistencia se han pensado tres modalidades:-->
 
-<h4><b>Inscripción sesión individual</b></h4>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Precio: 40€ por sesion.
+<details>
+  <summary>Inscribirse por sesiones</summary>
+  <br>
+  <a href="../programa/B-I.html#sesion1">Sesión 1. Memoria e ingenuidad.</a><span class="dates-inscription">19 Enero</span><br>
+  <a href="../programa/B-I.html#sesion2">Sesión 2. Guerra y sociedad patriarcal.</a><span class="dates-inscription">26 Enero </span><br>
+  <a href="../programa/B-I.html#sesion3">Sesión 3. La democracia velada.</a><span class="dates-inscription">2 Febrero </span><br>
+  <a href="../programa/B-II.html#sesion4">Sesión 4. La lengua como reflejo de la realidad.</a><span class="dates-inscription">9 Febrero </span><br>
+  <a href="../programa/B-II.html#sesion5">Sesión 5. ¿Un matriarcado oculto?</a><span class="dates-inscription">16 Febrero </span><br>
+  <a href="../programa/B-II.html#sesion6">Sesión 6. Una igualdad que perpetúa el modelo patriarcal.</a><span class="dates-inscription">23 Febrero </span><br>
+  <a href="../programa/B-III.html#sesion7">Sesión 7. Una deuda impagable.</a><span class="dates-inscription">2 Marzo</span><br>
+  <a href="../programa/B-III.html#sesion8">Sesión 8. Humanismo y educación.</a><span class="dates-inscription">9 Marzo </span><br>
+  <a href="../programa/B-III.html#sesion9">Sesión 9. Un lado oscuro: el destierro social de la mujer.</a><span class="dates-inscription">16 Marzo </span><br>
+  <a href="../programa/B-IV.html#sesion10">Sesión 10. La mentalidad de la ciudad-estado.</a><span class="dates-inscription">23 Marzo </span><br>
+  <a href="../programa/B-IV.html#sesion11">Sesión 11. La fragilidad de la memoria y el principio del fin.</a><span class="dates-inscription">30 Marzo </span><br>
+  <a href="../programa/B-IV.html#sesion12">Sesión 12. Hacia la edad media.</a><span class="dates-inscription">6 Abril</span><br><br>
+  <button class="boton" onclick="cargarBoton(2)">Inscribirse</button>
+  <br><p>Precio: 40€ por sesion.</p>
+</details>
+
+<details>
+  <summary>Inscribirse por bloques</summary><br>
+  <p>El curso está dividido en cuatro bloques, cada uno de ellos compuesto de tres sesiones. Es posible inscribirse a uno o varios bloques.</p>
+  <a href="{{ site.baseurl }}{% link programa/B-I.md %}">Bloque I:La historia como <i>magister vitae</i>.</a><span class="dates-inscription">19 y 26 de enero, 2 de febrero</span><br>
+  <a href="{{ site.baseurl }}{% link programa/B-II.md %}">Bloque II:Lenguaje e igualdad.</a> <span class="dates-inscription"> 9, 16 y 23 de febrero</span><br>
+  <a href="{{ site.baseurl }}{% link programa/B-III.md %}">Bloque III: El legado de Grecia y Roma.</a> <span class="dates-inscription"> 2, 9 y 16 de marzo</span><br>
+  <a href="{{ site.baseurl }}{% link programa/B-IV.md %}">Bloque IV: La globalización de las ideas.</a><span class="dates-inscription">23 y 30 de marzo, 6 abril</span><br><br>
+  <button class="boton" onclick="cargarBoton(1)">Inscribirse</button>
+  <br><p>Precio: 100€ por bloque.</p>
+</details>
+
+<details open>
+  <summary>Inscribirse al curso completo</summary><br>
+  <p>El curso completo consta de 12 sesiones que tendrán lugar los sábados de 11:00 a 13:00, desde el 19 de enero hasta 6 de abril 2019 ambos incluídos.</p>
+  <button class="boton" onclick="cargarBoton(0)">Inscribirse</button>
+  <br><p>Precio:  300€</p>
+
+</details>
 
 <br>
-<h4><b>Inscripción por bloque</b></h4>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Bloque I:La historia como <i>magister vitae</i>.]({{ site.baseurl }}{% link programa/B-I.md %}) 19 y 26 de enero, 2 de febrero 2019.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Bloque II:Lenguaje e igualdad.]({{ site.baseurl }}{% link programa/B-II.md %}) 9, 16 y 23 de febrero  2019.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bloque III: El legado de Grecia y Roma.]({{ site.baseurl }}{% link programa/B-III.md %}) 2, 9 y 16 de marzo 2019.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bloque IV: La globalización de las ideas.]({{ site.baseurl }}{% link programa/B-IV.md %}) 23 y 30 de marzo, 6 abril 2019.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Precio: 100€ por bloque ( 3 sesiones ).<br>
-
-<br>
-<h4><b>Taller completo</b></h4>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sábados de 11:00 a 13:00, desde el 19 de enero hasta 6 de abril 2019 incluídos.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Precio:  300€ ( 12 sesiones ).
-
 <hr>
 <br>
 <!--<img src="/assets/images/tuba.png" alt="Telégrafo acústico antigua grecia" /><br>-->
 Para aquellas personas que no puedan asistir presencialmente, a parte o al curso completo, existe la posibilidad de seguir el curso por streaming. Puedes escribirnos para más información.
 <hr>
 <br>
+<a id="formulario"></a>
+<h4>Formulario de inscripción</h4 >
 <div style="border-radius: 5px;background-color: #f2f2f2;padding: 20px;">
 <form accept-charset="UTF-8" action="https://formcarry.com/s/5pYNQCAMaX1" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
@@ -54,7 +72,7 @@ Para aquellas personas que no puedan asistir presencialmente, a parte o al curso
 
         <div class="a">
         <!--Bloques-->
-        <label name="bloque" class="div-invisible"><input type="checkbox" name="BI" value="BI"> Bloque I. La historia como magister vitae.</label>
+        <label name="bloque" class="div-invisible"><input type="checkbox" name="BI" value="BI" onchange="cambiarCheckbox(this);"> Bloque I. La historia como magister vitae.</label>
         <label name="bloque" class="div-invisible"><input type="checkbox" name="BII" value="BII"> Bloque II. Lenguaje e igualdad.</label>
         <label name="bloque" class="div-invisible"><input type="checkbox" name="BIII" value="BIII"> Bloque III. El legado de Grecia y Roma.</label>
         <label name="bloque" class="div-invisible"><input type="checkbox" name="BIV" value="BIV"> Bloque IV. La globalización de las ideas.</label>

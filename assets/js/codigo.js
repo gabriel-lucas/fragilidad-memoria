@@ -30,7 +30,7 @@ window.onload = function() {
 
   function showSlide(){
     canvas.style.display="none";
-    console.log("hola");
+    //console.log("hola");
     $('#slideshow').css("display", "block"); //.style.display="block";
     //$('#slideshow').cycle('resume');
     $('#slideshow img:first').fadeIn(5000, function() {
@@ -80,11 +80,46 @@ function updateCheckBox(opts) {
       }
   };
 
+  function cargarBoton(seleccion){
+    location.href='#formulario'; // Enlace al anchor del formulario
+    var lista = document.getElementsByName("opcion");
+    lista[0].selectedIndex=seleccion; // selecciona la opción del botón que se pulsa.
+    updateCheckBox(lista[0]); // muestra los checkboxes adecuados
+  }
+  function cambiarCheckbox(checkbox) {
+      if(checkbox.checked == true){
+          if(checkbox.name == "BI"){
+            console.log("B1 pulsado");
+            var c = document.getElementsByName("s1");
+            console.log(c);
+            c.checked=true;
+          }
+
+      }else{
+     }
+  };
+
 
 // Formulario.
 $(document).ready(function() {
 
-  // process the form
+  // Cerrar los acordeones (details) cuando se pulsa para abrir otro
+  const details = Array.from(document.querySelectorAll("details"));
+
+  // Add the onclick listeners.
+  details.forEach((targetDetail) => {
+    targetDetail.addEventListener("click", () => {
+      // Close all the details that are not targetDetail.
+      details.forEach((detail) => {
+        if (detail !== targetDetail) {
+          detail.removeAttribute("open");
+        }
+      });
+    });
+  });
+
+
+  // Processamiento del formulario
   $('form').submit(function(event) {
         event.preventDefault();
         var href = $(this).attr("action");

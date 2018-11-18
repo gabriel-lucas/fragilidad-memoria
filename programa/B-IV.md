@@ -39,7 +39,7 @@ Desde la antigua Atenas (cuna de la democracia) hasta los Estados Unidos de Amé
 
 <a class="nostyle" id="sesion12">Sesión 12. Hacia la edad media.</a>
 -----------------------------------
-   6 Marzo 2019
+   6 Abril 2019
 * El problema de las religiones
 * Las persecuciones de los cristianos: ¿historia o mito?
 
