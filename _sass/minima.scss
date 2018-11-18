@@ -308,24 +308,63 @@ nostyle:visited {
     cursor: auto;
 }
 
-.dates-inscription{
-  font-size:15px;
-  float:right;
+
+// Página inscripciones.
+@media screen and (max-width: 600px) {
+  a {
+    font-size: 4vw;
+  }
+
+  .dates-inscription{
+    font-size:14px;
+    display:block;
+  }
+
+  details {
+    padding: 45px 30px 45px 45px;
+  }
+
+  .boton{
+    width: 100%;
+    font-size:14px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+  }
 }
 
-.boton{
-  width: 110px;
-  font-size:14px;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  position: relative;
-  float:right;
+@media screen and (min-width: 600px) {
+  a {
+    font-size: 16px;
+  }
+
+  .dates-inscription{
+    font-size:15px;
+    float:right;
+  }
+
+  .boton{
+    width: 110px;
+    font-size:14px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    float:right;
+    margin-top: -50px;
+  }
 }
+
+
 
 // Inscripción cajas para el acordeón
 
@@ -333,7 +372,7 @@ details {
   width: 100%;
   min-height: 5px;
   max-width: 700px;
-  padding: 45px 70px 45px 45px;
+  padding: 45px 45px 45px 45px;
   margin: 0 auto;
   position: relative;
   font-size: 18px;

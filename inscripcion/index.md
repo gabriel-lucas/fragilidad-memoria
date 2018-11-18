@@ -19,8 +19,8 @@ layout: page
   <a href="../programa/B-IV.html#sesion10">Sesión 10. La mentalidad de la ciudad-estado.</a><span class="dates-inscription">23 Marzo </span><br>
   <a href="../programa/B-IV.html#sesion11">Sesión 11. La fragilidad de la memoria y el principio del fin.</a><span class="dates-inscription">30 Marzo </span><br>
   <a href="../programa/B-IV.html#sesion12">Sesión 12. Hacia la edad media.</a><span class="dates-inscription">6 Abril</span><br><br>
-  <button class="boton" onclick="cargarBoton(2)">Inscribirse</button>
-  <br><p>Precio: 40€ por sesion.</p>
+  <p>Precio: 40€ por sesion.</p><button class="boton" onclick="cargarBoton(2)">Inscribirse</button>
+  <br>
 </details>
 
 <details>
@@ -30,15 +30,15 @@ layout: page
   <a href="{{ site.baseurl }}{% link programa/B-II.md %}">Bloque II:Lenguaje e igualdad.</a> <span class="dates-inscription"> 9, 16 y 23 de febrero</span><br>
   <a href="{{ site.baseurl }}{% link programa/B-III.md %}">Bloque III: El legado de Grecia y Roma.</a> <span class="dates-inscription"> 2, 9 y 16 de marzo</span><br>
   <a href="{{ site.baseurl }}{% link programa/B-IV.md %}">Bloque IV: La globalización de las ideas.</a><span class="dates-inscription">23 y 30 de marzo, 6 abril</span><br><br>
-  <button class="boton" onclick="cargarBoton(1)">Inscribirse</button>
-  <br><p>Precio: 100€ por bloque.</p>
+  <p>Precio: 100€ por bloque.</p><button class="boton" onclick="cargarBoton(1)">Inscribirse</button>
+  <br>
 </details>
 
 <details open>
   <summary>Inscribirse al curso completo</summary><br>
-  <p>El curso completo consta de 12 sesiones que tendrán lugar los sábados de 11:00 a 13:00, desde el 19 de enero hasta 6 de abril 2019 ambos incluídos.</p>
-  <button class="boton" onclick="cargarBoton(0)">Inscribirse</button>
-  <br><p>Precio:  300€</p>
+  <p>El curso completo consta de 12 sesiones que tendrán lugar los sábados de 11:00 a 13:00, desde el 19 de enero hasta 6 de abril 2019 ambos incluídos.</p><br>
+  <p>Precio:  300€</p><button class="boton" onclick="cargarBoton(0)">Inscribirse</button>
+  <br>
 
 </details>
 
@@ -93,7 +93,7 @@ Para aquellas personas que no puedan asistir presencialmente, a parte o al curso
         </div>
         <br>
         <input type="checkbox" id="streaming" name="streaming"/>
-        Marca esta casilla si estás interesado en seguir el curso por streaming.
+        Seguir el curso por streaming
         <br><br>
         <input type="submit" value="Inscribirse" id="submit"/>
 
