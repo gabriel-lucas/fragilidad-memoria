@@ -121,6 +121,16 @@ $(document).ready(function() {
     });
   });
 
+  var acordeon = document.querySelectorAll("details")
+  acordeon[0].addEventListener("toggle", function() {
+      window.scrollTo(0, 0);
+  })
+  acordeon[1].addEventListener("toggle", function() {
+      window.scrollTo(0, 240);
+  })
+  acordeon[2].addEventListener("toggle", function() {
+      window.scrollTo(0, 370);
+  })
 
   // Processamiento del formulario
   $('form').submit(function(event) {

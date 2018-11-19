@@ -4,14 +4,14 @@ layout: page
 
 <!--Para facilitar la asistencia se han pensado tres modalidades:-->
 
-<details open>
+<details open id="completo">
   <summary>Inscribirse curso completo</summary><br>
   <p>El curso completo consta de 12 sesiones que tendrán lugar los sábados de 11:00 a 13:00, desde el 19 de enero hasta 6 de abril 2019 ambos incluídos.</p><br>
   <p>Precio:  300€</p><button class="boton" onclick="cargarBoton(0)">Inscribirse</button>
   <br>
 </details>
 
-<details>
+<details id="bloques">
   <summary>Inscribirse por bloques</summary><br>
   <p>El curso está dividido en cuatro bloques, cada uno de ellos compuesto de tres sesiones. Es posible inscribirse a uno o varios bloques.</p>
   <a href="{{ site.baseurl }}{% link programa/B-I.md %}">Bloque I:La historia como <i>magister vitae</i>.</a><span class="dates-inscription">19 y 26 de enero, 2 de febrero</span><br>
@@ -23,7 +23,7 @@ layout: page
 </details>
 
 
-<details>
+<details id="sesiones">
   <summary>Inscribirse por sesiones</summary>
   <br>
   <a href="../programa/B-I.html#sesion1">Sesión 1. Memoria e ingenuidad.</a><span class="dates-inscription">19 Enero</span><br>
@@ -46,7 +46,7 @@ layout: page
 <hr>
 <br>
 <!--<img src="/assets/images/tuba.png" alt="Telégrafo acústico antigua grecia" /><br>-->
-Para aquellas personas que no puedan asistir presencialmente, a parte o al curso completo, existe la posibilidad de seguir el curso por streaming. Puedes escribirnos para más información.
+Existe la posibilidad de seguir el curso por streaming para aquellas personas que no puedan asistir presencialmente al curso completo o a alguna sesión.
 <hr>
 <br>
 <a id="formulario"></a>
