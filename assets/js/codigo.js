@@ -80,8 +80,11 @@ function updateCheckBox(opts) {
       }
   };
 
+  // Al pulsar el botón de inscribirse lleva al formulario y cambia las opciones
   function cargarBoton(seleccion){
     location.href='#formulario'; // Enlace al anchor del formulario
+    var nombre = document.getElementsByName("nombre");
+    nombre[0].focus();
     var lista = document.getElementsByName("opcion");
     lista[0].selectedIndex=seleccion; // selecciona la opción del botón que se pulsa.
     updateCheckBox(lista[0]); // muestra los checkboxes adecuados
