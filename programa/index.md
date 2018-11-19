@@ -7,8 +7,8 @@ layout: page
 <br>
 <hr>
 <br>
-El curso consiste en doce encuentros agrupados en cuatros bloques temáticos.<br>
-Estos encuentros se realizarán <b>los sábados, en horario de 11:00 a 13:00, desde el 19 de enero al 6 de abril de 2019, ambos incluidos</b> y tendrán lugar en la sala [Umbral de privamera]({{ site.baseurl }}/localizacion/).
+El curso consiste en <b><big>doce sesiones</big></b> agrupadas en <b><big>cuatros bloques temáticos.</big></b><br>
+Estos encuentros se realizarán los <b><big>sábados</big></b>, en horario de <b><big>11:00 a 13:00</big></b>, desde el <b><big>19 de enero al 6 de abril</big></b> de 2019, ambos incluidos y tendrán lugar en la sala [Umbral de privamera]({{ site.baseurl }}/localizacion/).
 <br>
 Existe la opción de seguir el curso por streaming para aquellas personas que no puedan asistir presencialmente.
 <br>
