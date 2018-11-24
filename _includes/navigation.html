@@ -7,7 +7,9 @@
   <img src="/assets/images/barco.png">
 </a>
 <ul class="main-nav" id="js-menu">{% else %}
-  <li>
-    <a class="sample" href="{{ link.url }}">{{ link.name }}</a>
-  </li>{% endif %}{% endfor %}
+  {% if page.url == link.url %}
+    <li><a class="sample-activo" href="{{link.url}}">{{link.name}}</a></li>
+  {% else %}
+    <li><a class="sample" href="{{link.url}}">{{link.name}}</a></li>
+    {% endif %}{% endif %}{% endfor %}
 </ul>

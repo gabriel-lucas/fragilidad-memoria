@@ -5,6 +5,6 @@
 - name: Ponente
   url: "/ponente/"
 - name: Inscripción
-  url: "/inscripcion"
+  url: "/inscripcion/"
 - name: Localización
   url: "/localizacion/"
