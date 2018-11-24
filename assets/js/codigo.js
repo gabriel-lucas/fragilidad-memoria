@@ -8,6 +8,14 @@ window.onload = function() {
   });
 
   // Pasafotos
+  var clickable = document.getElementById('click-programa');
+  clickable.style.cursor = 'pointer';
+  clickable.onclick = function() {
+    window.location.href = '/programa';
+    //document.location.href = "https"
+    //console.log("topdiv clicked!");
+  }
+
   $(function() {
     //$( '.cycle-slideshow' ).on( 'cycle-before', function( event, opts ) {
       //$('.cycle-slideshow').cycle('next');
@@ -45,6 +53,7 @@ window.onload = function() {
 }
 
 
+
 // Opciones inscripción
 
 function updateCheckBox(opts) {
@@ -79,8 +88,7 @@ function updateCheckBox(opts) {
         }
       }
   };
-
-  // Al pulsar el botón de inscribirse lleva al formulario y cambia las opciones
+// Al pulsar el botón de inscribirse lleva al formulario y cambia las opciones
   function cargarBoton(seleccion){
     location.href='#formulario'; // Enlace al anchor del formulario
     var nombre = document.getElementsByName("nombre");
@@ -131,6 +139,7 @@ $(document).ready(function() {
   acordeon[2].addEventListener("toggle", function() {
       window.scrollTo(0, 370);
   })
+
 
   // Processamiento del formulario
   $('form').submit(function(event) {

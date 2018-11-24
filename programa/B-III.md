@@ -11,9 +11,9 @@ Todos los habitantes de este mundo, especialmente los que vivimos en Occidente, 
 
 
 
-
+<br>
 <a class="nostyle" id="sesion7">Sesión 7. Una deuda impagable.</a>
--------------------------------------------
+<br>
   2 Marzo 2019
 * La herencia intangible
 * Libertad e individualidad
@@ -26,8 +26,9 @@ Todos los habitantes de este mundo, especialmente los que vivimos en Occidente, 
 * Las XII tablas y el Estado de Derecho
 * Debate
 
+<br>
 <a class="nostyle" id="sesion8">Sesión 8. Humanismo y educación.</a>
---------------------------------------
+<br>
   9 Marzo 2019
 * Filantropía
 * <i>Paideía</i>
@@ -38,8 +39,10 @@ Todos los habitantes de este mundo, especialmente los que vivimos en Occidente, 
 * La educación hoy
 * Debate
 
+<br>
 <a class="nostyle" id="sesion9">Sesión 9. Un lado oscuro: el destierro social de la mujer.</a>
------------------------------------------------------------------
+<br>
+
    16 Marzo 2019
 * El mito como arma
 * Modelos negativos: Helena, Antígona, Medea

@@ -162,7 +162,7 @@ $on-laptop:        800px !default;
    font-size: 16px;
 }
 .p-name{
-   font-size: 11.4px;
+   font-size: 20px;
 }
 .u-email{
    //font-family: 'Alegreya';
@@ -209,6 +209,11 @@ $on-laptop:        800px !default;
 //label.div-visible input[type=checkbox]{
 //}
 
+.click-programa {
+    height: 400px;
+    width: 700px;
+    cursor: pointer;
+}
 
 //slideshow
 .pics img
@@ -278,6 +283,21 @@ hr {
   height:10px;
   background-image:url('/assets/images/separador.png');
   width: 100%;
+}
+
+hr.corto {
+  display:block;
+  border:0px;
+  height:10px;
+  background-image:url('/assets/images/separador-corto.png');
+  width: 60%;
+}
+hr.medio {
+  display:block;
+  border:0px;
+  height:10px;
+  background-image:url('/assets/images/separador-medio.png');
+  width: 80%;
 }
 
 // Centrar bloques programa

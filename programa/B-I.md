@@ -21,8 +21,9 @@ Hace dos mil quinientos años, el historiador ateniense Tucídides escribió que
 
 Para los antiguos griegos, en efecto, la historia era fundamentalmente una secuencia dramática de acontecimientos que, frecuentemente, escapaban al control de sus protagonistas. Por eso creían firmemente que la historia es la maestra de la vida. Con esta idea escribieron obras y construyeron teorías, en la creencia de que las generaciones sucesivas podían aprender de sus errores y de sus aciertos. Pero, con la perspectiva de quienes vivimos hoy ¿es, en realidad, la historia nuestra maestra? ¿La historia se repite? ¿Nos sirve la experiencia de quienes vivieron antes que nosotros?
 
+<br>
 <a class="nostyle" id="sesion1">Sesión 1. Memoria e ingenuidad.</a>
-------------------------------------------
+<br>
   19 Enero 2019
 
 * El pasado en el presente
@@ -36,8 +37,9 @@ Para los antiguos griegos, en efecto, la historia era fundamentalmente una secue
 * La tecnología: un arma manejada por adolescentes
 * Debate
 
+<br>
 <a class="nostyle" id="sesion2">Sesión 2. Guerra y sociedad patriarcal.</a>
-----------------------------------------------------
+<br>
 26 Enero 2019
 
 * La civilización minoica y la mujer
@@ -50,8 +52,9 @@ Para los antiguos griegos, en efecto, la historia era fundamentalmente una secue
 * La resistencia de la lengua al modelo patriarcal
 * Debate
 
+<br>
 <a class="nostyle" id="sesion3">Sesión 3. La democracia velada.</a>
---------------------------------------------
+<br>
 2 Febrero 2019
 
 

@@ -9,9 +9,10 @@ LENGUAJE E IGUALDAD - BLOQUE II
 
 Vivimos tiempos en que la palabra igualdad es utilizada a diario, en todo tipo de contextos. En realidad, es una palabra que define bien uno de los rasgos fundamentales del tiempo que vivimos: la reivindicación femenina de su papel en el modelo de sociedad patriarcal. En mi opinión, sin embargo, el éxito del modelo indoeuropeo de sociedad patriarcal (impuesto hace aproximadamente tres mil seiscientos años) ha ido mucho más allá de lo que sus propios inductores imaginaron. Y así, en nuestros días, muchas mujeres (a cuya costa se construyó tal sociedad) han asumido e interiorizado ese modelo incluso cuando creen oponerse a él.
 
+<br>
 <a class="nostyle" id="sesion4">Sesión 4. La lengua como reflejo de la realidad.</a>
-------------------------------------------------------
-  9 Febrero 2019
+<br>
+9 Febrero 2019
 
 * La <i>psyché</i> de los pueblos
 * Lenguas clásicas y lenguas modernas
@@ -22,9 +23,10 @@ Vivimos tiempos en que la palabra igualdad es utilizada a diario, en todo tipo d
 * La supervivencia en la lengua de modelos prepatriarcales
 * Debate
 
+<br>
 <a class="nostyle" id="sesion5">Sesión 5. ¿Un matriarcado oculto?</a>
-----------------------------------------
-  16 Febrero 2019
+<br>
+16 Febrero 2019
 
 * El problema del género
 * Una única oposición de género: animado frente a neutro
@@ -36,8 +38,9 @@ Vivimos tiempos en que la palabra igualdad es utilizada a diario, en todo tipo d
 * Las lenguas flexivas. Léxico y gramática
 * Debate
 
+<br>
 <a class="nostyle" id="sesion6">Sesión 6. Una igualdad que perpetúa el modelo patriarcal.</a>
----------------------------------------------------------------
+<br>
    23 Febrero 2019
 
 * Recursos léxicos y recursos morfológicos
