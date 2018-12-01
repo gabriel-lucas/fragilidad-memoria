@@ -153,6 +153,7 @@ $(document).ready(function() {
             data: $(this).serialize(),
             success: function(response){
                 if(response.status == "success"){
+                    console.log(response);
                     window.location.href = 'https://fragilidadmemoria.es/inscripcion/inscripcion1.html'; // change this.
                 }else{
                     alert("Ocurrió un error. Por favor vuelve a intentarlo o sino escríbenos a fragilidadmemoria@protonmail.com. Muchas gracias.");
