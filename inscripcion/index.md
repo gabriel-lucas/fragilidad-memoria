@@ -99,7 +99,7 @@ Existe la posibilidad de seguir el curso por streaming para aquellas personas qu
 
    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
 
-    <input type="hidden" name='redirect_to' value="https://fragilidadmemoria/inscripcion/inscripcion1.html"/>
+    <!--<input type="hidden" name='redirect_to' value="https://fragilidadmemoria/inscripcion/inscripcion1.html"/>-->
 
 </form></div>
 
