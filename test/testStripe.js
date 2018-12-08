@@ -3,6 +3,7 @@ var stripe = Stripe('pk_test_im4eLqtDCrJlVXzTg6qcTQZg', {betas: ['checkout_beta_
 function cargar(){
   // Create a Stripe client.
   var checkoutButton = document.getElementById('checkout-button');
+  console.log("Pagar presionado");
   checkoutButton.addEventListener('click', pagar(1,1,1));
 }
 
