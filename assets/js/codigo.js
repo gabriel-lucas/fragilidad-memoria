@@ -1,3 +1,9 @@
+// Variables
+
+var nombre, apellidos, email, telefono, opcion;
+var BI, BII, BII, BIV;
+var s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12;
+
 // Activa el menu
 window.onload = function() {
   // Mostrar hamburguesa
@@ -15,14 +21,6 @@ window.onload = function() {
     //document.location.href = "https"
     //console.log("topdiv clicked!");
   }
-
-  $(function() {
-    //$( '.cycle-slideshow' ).on( 'cycle-before', function( event, opts ) {
-      //$('.cycle-slideshow').cycle('next');
-      // your event handler code here
-      // argument opts is the slideshow's option hash
-    //});
-  });
 
   // shader
   var canvas = document.getElementById("glslCanvas");
@@ -113,52 +111,124 @@ function updateCheckBox(opts) {
 
 // Formulario.
 $(document).ready(function() {
+  //console.log(window.location.pathname);
+  if(window.location.pathname == "/inscripcion/"){
+    // Cerrar los acordeones (details) cuando se pulsa para abrir otro
+    const details = Array.from(document.querySelectorAll("details"));
 
-  // Cerrar los acordeones (details) cuando se pulsa para abrir otro
-  const details = Array.from(document.querySelectorAll("details"));
-
-  // Add the onclick listeners.
-  details.forEach((targetDetail) => {
-    targetDetail.addEventListener("click", () => {
-      // Close all the details that are not targetDetail.
-      details.forEach((detail) => {
-        if (detail !== targetDetail) {
-          detail.removeAttribute("open");
-        }
+    // Add the onclick listeners.
+    details.forEach((targetDetail) => {
+      targetDetail.addEventListener("click", () => {
+        // Close all the details that are not targetDetail.
+        details.forEach((detail) => {
+          if (detail !== targetDetail) {
+            detail.removeAttribute("open");
+          }
+        });
       });
     });
-  });
 
-  var acordeon = document.querySelectorAll("details")
-  acordeon[0].addEventListener("toggle", function() {
-      window.scrollTo(0, 0);
-  })
-  acordeon[1].addEventListener("toggle", function() {
-      window.scrollTo(0, 240);
-  })
-  acordeon[2].addEventListener("toggle", function() {
-      window.scrollTo(0, 370);
-  })
+    var acordeon = document.querySelectorAll("details")
+    acordeon[0].addEventListener("toggle", function() {
+        window.scrollTo(0, 0);
+    })
+    acordeon[1].addEventListener("toggle", function() {
+        window.scrollTo(0, 240);
+    })
+    acordeon[2].addEventListener("toggle", function() {
+        window.scrollTo(0, 370);
+    })
 
 
-  // Processamiento del formulario
-  $('form').submit(function(event) {
-        event.preventDefault();
-        var href = $(this).attr("action");
+    // Processamiento del formulario
 
-        $.ajax({
-            type: "POST",
-            dataType: "json",
-            url: href,
-            data: $(this).serialize(),
-            success: function(response){
-                if(response.status == "success"){
-                    console.log(response);
-                    window.location.href = 'https://fragilidadmemoria.es/inscripcion/inscripcion1.html'; // change this.
-                }else{
-                    alert("Ocurrió un error. Por favor vuelve a intentarlo o sino escríbenos a fragilidadmemoria@protonmail.com. Muchas gracias.");
-                }
-            }
-        });
-    });
+    $('form').submit(function(event) {
+          event.preventDefault();
+          var href = $(this).attr("action");
+          console.log("enviando");
+          $.ajax({
+              type: "POST",
+              dataType: "json",
+              url: href,
+              data: $(this).serialize(),
+              success: function(response){
+                  if(response.status == "success"){
+                    var url = document.createElement('a');
+                    url.href = response.returnUrl;
+                    const urlParams = new URLSearchParams(url.search);
+                    urlParams.delete('apellidos');
+                    urlParams.delete('email');
+                    urlParams.delete('telefono');
+                    window.location.href = './inscripcion1.html'+'?'+urlParams.toString(); // change this.
+                  }else{
+                      alert("Ocurrió un error. Por favor vuelve a intentarlo o sino escríbenos a fragilidadmemoria@protonmail.com. Muchas gracias.");
+                  }
+              }
+          });
+      });
+  }else if (window.location.pathname == "/inscripcion/inscripcion1.html") {
+    //console.log("Pago");
+    var urlParams = new URLSearchParams(window.location.search);
+    nombre = urlParams.get('nombre');
+    var salida = calcularPrecio(urlParams);
+    var precio = salida[0];
+    var opcion = salida[1];
+    streaming = urlParams.has('streaming');
+    document.getElementById('nombre-pago').innerHTML = nombre;
+    document.getElementById('opcion').innerHTML = opcion;
+    document.getElementById('precio').innerHTML = precio;
+  }
 });
+
+function calcularPrecio(urlParams){
+    var precio = 0;
+    var salidaOpcion="";
+    opcion = urlParams.get('opcion');
+    switch(opcion){
+      case "todo": precio = 300; salidaOpcion="Curso completo"; break;
+      case "bloques":
+        salidaOpcion="Bloque"
+        if(urlParams.has('BI')==true){
+           precio = precio+100;
+           salidaOpcion=salidaOpcion+" I";
+        }
+        if(urlParams.has('BII')==true){
+          precio = precio+100;
+          salidaOpcion=salidaOpcion+" II";
+        }
+        if(urlParams.has('BIII')==true){
+          precio = precio+100;
+          salidaOpcion=salidaOpcion+" III";
+        }
+        if(urlParams.has('BIV')==true){
+          precio = precio+100;
+          salidaOpcion=salidaOpcion+" IV";
+        }
+        if(precio>300){
+          precio=300;
+          salidaOpcion="Curso completo";
+        }
+        break;
+      case "sesiones":
+        salidaOpcion="Sesiones"
+        if(urlParams.has('s1')==true) precio = precio+40;
+        if(urlParams.has('s2')==true) precio = precio+40;
+        if(urlParams.has('s3')==true) precio = precio+40;
+        if(urlParams.has('s4')==true) precio = precio+40;
+        if(urlParams.has('s5')==true) precio = precio+40;
+        if(urlParams.has('s6')==true) precio = precio+40;
+        if(urlParams.has('s7')==true) precio = precio+40;
+        if(urlParams.has('s8')==true) precio = precio+40;
+        if(urlParams.has('s9')==true) precio = precio+40;
+        if(urlParams.has('s10')==true) precio = precio+40;
+        if(urlParams.has('s11')==true) precio = precio+40;
+        if(urlParams.has('s12')==true) precio = precio+40;
+        if(urlParams.has('s1')==true && urlParams.has('s3')==true && urlParams.has('s3')==true ) precio = precio-20;
+        if(urlParams.has('s4')==true && urlParams.has('s5')==true && urlParams.has('s6')==true ) precio = precio-20;
+        if(urlParams.has('s7')==true && urlParams.has('s8')==true && urlParams.has('s9')==true ) precio = precio-20;
+        if(urlParams.has('s10')==true && urlParams.has('s11')==true && urlParams.has('s12')==true ) precio = precio-20;
+        if(precio>300) precio=300;
+        break;
+    }
+    return [precio,salidaOpcion];
+}

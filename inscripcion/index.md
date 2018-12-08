@@ -64,7 +64,7 @@ Existe la posibilidad de seguir el curso por streaming para aquellas personas qu
         <input type="tel" id="telefono" name="telefono"/>
         <label for="opcion">Modalidad</label>
         <select name="opcion" onchange="updateCheckBox(this)">
-        <option value="todo" selected>Taller completo</option>
+        <option value="todo" selected>Curso completo</option>
         <option value="bloques">Por bloques</option>
         <option value="sesiones">Por sesiones</option>
         <input type="hidden" name="_gotcha">
@@ -99,7 +99,7 @@ Existe la posibilidad de seguir el curso por streaming para aquellas personas qu
 
    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
 
-    <!--<input type="hidden" name='redirect_to' value="https://fragilidadmemoria/inscripcion/inscripcion1.html"/>-->
+
 
 </form></div>
 
