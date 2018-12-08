@@ -237,26 +237,3 @@ function calcularPrecio(urlParams){
     }
     return [precio,salidaOpcion];
 }
-
-
-
-
-function pagar (curso, bloques, sesiones){
-    stripe.redirectToCheckout({
-    items: [
-        {sku: 'sku_E7JTP3BxBmKj2O', quantity: curso},
-        {sku: 'sku_E7JkyG5CRuecVv', quantity: bloques},
-        {sku: 'sku_E7Jk6idgE2weH2', quantity: sesiones}
-    ],
-    successUrl: 'https://fragilidadmemoria.es/inscripcion/inscripcion-completada.html',
-    cancelUrl: 'https://fragilidadmemoria.es/inscripcion/inscripcion-cancelada.html',
-  }).then(function (result) {
-    // Display result.error.message to your customer
-    if (result.error) {
-      // If `redirectToCheckout` fails due to a browser or network
-      // error, display the localized error message to your customer.
-      var displayError = document.getElementById('error-message');
-      displayError.textContent = result.error.message;
-    }
-  });
-}
