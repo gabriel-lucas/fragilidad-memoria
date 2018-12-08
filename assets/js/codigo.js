@@ -177,6 +177,11 @@ $(document).ready(function() {
     document.getElementById('nombre-pago').innerHTML = nombre;
     document.getElementById('opcion').innerHTML = opcion;
     document.getElementById('precio').innerHTML = precio;
+  }else if(window.location.pathname == "/test/testStripe.html"){
+    // Create a Stripe client.
+    var stripe = Stripe('pk_test_im4eLqtDCrJlVXzTg6qcTQZg', {betas: ['checkout_beta_3']});
+    var checkoutButton = document.getElementById('checkout-button');
+    checkoutButton.addEventListener('click', pagar(1,1,1));
   }
 });
 
@@ -231,4 +236,27 @@ function calcularPrecio(urlParams){
         break;
     }
     return [precio,salidaOpcion];
+}
+
+
+
+
+function pagar (curso, bloques, sesiones){
+    stripe.redirectToCheckout({
+    items: [
+        {sku: 'sku_E7JTP3BxBmKj2O', quantity: curso},
+        {sku: 'sku_E7JkyG5CRuecVv', quantity: bloques},
+        {sku: 'sku_E7Jk6idgE2weH2', quantity: sesiones}
+    ],
+    successUrl: 'https://fragilidadmemoria.es/inscripcion/inscripcion-completada.html',
+    cancelUrl: 'https://fragilidadmemoria.es/inscripcion/inscripcion-cancelada.html',
+  }).then(function (result) {
+    // Display result.error.message to your customer
+    if (result.error) {
+      // If `redirectToCheckout` fails due to a browser or network
+      // error, display the localized error message to your customer.
+      var displayError = document.getElementById('error-message');
+      displayError.textContent = result.error.message;
+    }
+  });
 }
