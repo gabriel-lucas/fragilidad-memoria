@@ -2,21 +2,60 @@
 layout: page
 ---
 <br>
-<p> <span id="nombre-pago"></span> muchas gracias por inscribirte.</p>
-<p>Te has pre-inscrito correctamente a <span id="opcion"></span>, para formalizar la reserva de tu plaza es necesario que realices el pago de <span id="precio"></span>€ a la siguiente cuenta:</p>
+<br>
+<h3><center> Muchas gracias por inscribirte.</center></h3>
+<br><br>
+<h4><u> Detalles de la inscripción</u></h4>
+<br>
+<p>Nombre y apellidos: <b><span id="nombre-pago"></span> <span id="apellidos"></span></b><p>
+<p>Modalidad: <span id="opcion"></span></p>
+<ul>
+  <b>
+  <p id="BI"></p>
+  <p id="s1"></p>
+  <p id="s2"></p>
+  <p id="s3"></p>
+  <p id="BII"></p>
+  <p id="s4"></p>
+  <p id="s5"></p>
+  <p id="s6"></p>
+  <p id="BIII"></p>
+  <p id="s7"></p>
+  <p id="s8"></p>
+  <p id="s9"></p>
+  <p id="BIV"></p>
+  <p id="s10"></p>
+  <p id="s11"></p>
+  <p id="s12"></p>
+  </b>
+</ul>
+<br>
+<span>Importe: </span><b><span id="precio"></span>€</b>
+<br>
 <br>
 <hr>
 <br>
-      <div id="centrarTexto">
-      <p>IBAN: <span id="right">DE47 1001-1001-2623-1296-16</span></p>
-      <p>BIC/SWIFT: <span id="right">NTSBDEB1XXX</span></p>
-      <p>Concepto: <span id="right">La Fragilidad de la Memoria</span></p>
-      <p>Beneficiario: <span id="right">Andrea Souviron Marugan</span></p>
-      </div>
+<h4><u>Formas de pago</u></h4>
+<p> Se puede pagar mediante tarjeta o transferencia bancaria.</p><br>
+<center><button id="checkout-button">Pago con tarjeta</button></center>
+<div id="error-message"></div>
+<br>
 <hr>
 <br>
-<p>Una vez la recibamos, nos pondremos en contacto contigo para confirmarte tu plaza.</p>
+<br>
+<div id="centrarTexto">
+<p>IBAN: <span id="right">DE47 1001-1001-2623-1296-16</span></p>
+<p>BIC/SWIFT: <span id="right">NTSBDEB1XXX</span></p>
+<p>Concepto: <span id="right">La Fragilidad de la Memoria</span></p>
+<p>Beneficiario: <span id="right">Andrea Souviron Marugan</span></p>
+</div>
+<br>
+<br>
+<br>
+<p>Una vez recibamos el pago, nos pondremos en contacto contigo para confirmarte la plaza.</p>
 
 <p>Para cualquier pregunta no dudes en escribirnos a <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 
-<p>Un saludo y hasta pronto.<p>
+<p>Un cordial saludo y hasta pronto.<p>
+<br>
+<hr>

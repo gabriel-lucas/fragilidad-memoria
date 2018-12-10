@@ -156,9 +156,9 @@ $(document).ready(function() {
                     var url = document.createElement('a');
                     url.href = response.returnUrl;
                     const urlParams = new URLSearchParams(url.search);
-                    urlParams.delete('apellidos');
-                    urlParams.delete('email');
-                    urlParams.delete('telefono');
+                    //urlParams.delete('apellidos');
+                    //urlParams.delete('email');
+                    //urlParams.delete('telefono');
                     window.location.href = './inscripcion1.html'+'?'+urlParams.toString(); // change this.
                   }else{
                       alert("Ocurrió un error. Por favor vuelve a intentarlo o sino escríbenos a fragilidadmemoria@protonmail.com. Muchas gracias.");
@@ -172,68 +172,168 @@ $(document).ready(function() {
     nombre = urlParams.get('nombre');
     var salida = calcularPrecio(urlParams);
     var precio = salida[0];
-    var opcion = salida[1];
+    var curso = salida[1];
+    var bloques = salida[2];
+    var sesiones = salida[3];
+
+    apellidos = urlParams.get('apellidos');
+    email = urlParams.get('email');
+    telefono = urlParams.get('telefono');
+    opcion = urlParams.get('opcion');
     streaming = urlParams.has('streaming');
+    BI = urlParams.has('BI');
+    BII = urlParams.has('BII');
+    BIII = urlParams.has('BIII');
+    BIV = urlParams.has('BIV');
+    s1 = urlParams.get('s1');
+    s2 = urlParams.get('s2');
+    s3 = urlParams.get('s3');
+    s4 = urlParams.get('s4');
+    s5 = urlParams.get('s5');
+    s6 = urlParams.get('s6');
+    s7 = urlParams.get('s7');
+    s8 = urlParams.get('s8');
+    s9 = urlParams.get('s9');
+    s10 = urlParams.get('s10');
+    s11 = urlParams.get('s11');
+    s12 = urlParams.get('s12');
+
+
     document.getElementById('nombre-pago').innerHTML = nombre;
-    document.getElementById('opcion').innerHTML = opcion;
+    document.getElementById('apellidos').innerHTML = apellidos;
+
+    var textoOpcion="";
+    if(!opcion.localeCompare("todo")){
+      textoOpcion="Curso completo";
+    }else if(!opcion.localeCompare("bloques")){
+      textoOpcion="";
+    }else if(!opcion.localeCompare("sesiones")){
+      textoOpcion="";
+    }
+
+    if(BI){
+      document.getElementById('BI').innerHTML = "Bloque I - LA HISTORIA COMO MAGISTER VITAE";
+    }else{
+      if(s1){document.getElementById('s1').innerHTML = "Sesión 1. Memoria e ingenuidad.";}
+      if(s2){document.getElementById('s2').innerHTML = "Sesión 2. Guerra y sociedad patriarcal.";}
+      if(s3){document.getElementById('s3').innerHTML = "Sesión 3. La democracia velada.";}
+    }
+    if(BII){
+      document.getElementById('BII').innerHTML = "Bloque II - LENGUAJE E IGUALDAD";
+    }else{
+      if(s4){document.getElementById('s4').innerHTML = "Sesión 4. La lengua como reflejo de la realidad.";}
+      if(s5){document.getElementById('s5').innerHTML = "Sesión 5. ¿Un matriarcado oculto?";}
+      if(s6){document.getElementById('s6').innerHTML = "Sesión 6. Una igualdad que perpetúa el modelo patriarcal.";}
+    }
+    if(BIII){
+      document.getElementById('BIII').innerHTML = "Bloque III - LA INCALCULABLE HERENCIA DE GRECIA Y ROMA";
+    }else{
+      if(s7){document.getElementById('s7').innerHTML = "Sesión 7. Una deuda impagable.";}
+      if(s8){document.getElementById('s8').innerHTML = "Sesión 8. Humanismo y educación.";}
+      if(s9){document.getElementById('s9').innerHTML = "Sesión 9. Un lado oscuro: el destierro social de la mujer.";}
+    }
+    if(BIV){
+      document.getElementById('BIV').innerHTML = "Bloque IV - LA GLOBALIZACIÓN DE LAS IDEAS";
+    }else{
+      if(s10){document.getElementById('s10').innerHTML = "Sesión 10. La mentalidad de la ciudad-estado.";}
+      if(s11){document.getElementById('s11').innerHTML = "Sesión 11. La fragilidad de la memoria y el principio del fin.";}
+      if(s12){document.getElementById('s12').innerHTML = "Sesión 12. Hacia la edad media.";}
+    }
+    if(BI & BII & BII & BIV){
+      document.getElementById('opcion').innerHTML = "Curso completo";
+      document.getElementById('BI').innerHTML = "";
+      document.getElementById('BII').innerHTML = "";
+      document.getElementById('BIII').innerHTML = "";
+      document.getElementById('BIV').innerHTML = "";
+    }else{
+      document.getElementById('opcion').innerHTML = textoOpcion;
+    }
     document.getElementById('precio').innerHTML = precio;
-  }else if(window.location.pathname == "/test/testStripe.html"){
+
+    //console.log("Variables:", curso, bloques, sesiones);
+
     // Create a Stripe client.
-    var stripe = Stripe('pk_test_im4eLqtDCrJlVXzTg6qcTQZg', {betas: ['checkout_beta_3']});
+    var stripe = Stripe('pk_live_R8jVDlvC152FBs3dj7JlNasM', {betas: ['checkout_beta_3']});
     var checkoutButton = document.getElementById('checkout-button');
-    checkoutButton.addEventListener('click', pagar(1,1,1));
+    var elementos;
+    if(curso==1){
+      elementos={};
+      elementos.items = [{sku: 'sku_E7RvrsMKSRlrrm', quantity: 1}];
+    }else{
+      if(bloques > 0 & sesiones == 0){
+        elementos={};
+        elementos.items = [{sku: 'sku_E7Ryojyt3JSuUc', quantity: bloques}];
+      }
+      if(bloques == 0 & sesiones > 0){
+        elementos={};
+        elementos.items = [{sku: 'sku_E7RySDS5jC4Xpy', quantity: sesiones}];
+      }
+      if(bloques > 0 & sesiones > 0){
+        elementos={};
+        elementos.items= [{sku: 'sku_E7RySDS5jC4Xpy', quantity: sesiones},{sku: 'sku_E7Ryojyt3JSuUc', quantity: bloques}];
+      }
+    }
+    checkoutButton.addEventListener('click', function (){
+      stripe.redirectToCheckout({
+            items: elementos.items,
+            successUrl: 'https://fragilidadmemoria.es/inscripcion/inscripcion-completada.html',
+            cancelUrl: 'https://fragilidadmemoria.es/inscripcion/inscripcion-cancelada.html',
+          })
+          .then(function (result) {
+            if (result.error) {
+              var displayError = document.getElementById('error-message');
+              displayError.textContent = result.error.message;
+            }
+          });
+    });
   }
 });
 
 function calcularPrecio(urlParams){
     var precio = 0;
-    var salidaOpcion="";
+    var curso=0;
+    var bloques=0;
+    var sesiones=0;
+
     opcion = urlParams.get('opcion');
-    switch(opcion){
-      case "todo": precio = 300; salidaOpcion="Curso completo"; break;
-      case "bloques":
-        salidaOpcion="Bloque"
+    if(!opcion.localeCompare("todo")){
+      precio = 300;
+      curso=1;
+    }else{
         if(urlParams.has('BI')==true){
-           precio = precio+100;
-           salidaOpcion=salidaOpcion+" I";
+          precio = precio+100;bloques=bloques+1;
+        }else{
+          if(urlParams.has('s1')==true) {precio = precio+40;sesiones=sesiones+1;}
+          if(urlParams.has('s2')==true) {precio = precio+40;sesiones=sesiones+1;}
+          if(urlParams.has('s3')==true) {precio = precio+40;sesiones=sesiones+1;}
+          if(urlParams.has('s1')==true && urlParams.has('s2')==true && urlParams.has('s3')==true){precio = precio-20;sesiones=sesiones-3;bloques=bloques+1;}
         }
         if(urlParams.has('BII')==true){
-          precio = precio+100;
-          salidaOpcion=salidaOpcion+" II";
+          precio = precio+100;bloques=bloques+1;
+        }else{
+          if(urlParams.has('s4')==true) {precio = precio+40;sesiones=sesiones+1;}
+          if(urlParams.has('s5')==true) {precio = precio+40;sesiones=sesiones+1;}
+          if(urlParams.has('s6')==true) {precio = precio+40;sesiones=sesiones+1;}
+          if(urlParams.has('s4')==true && urlParams.has('s5')==true && urlParams.has('s6')==true){precio = precio-20;sesiones=sesiones-3;bloques=bloques+1;}
         }
+
         if(urlParams.has('BIII')==true){
-          precio = precio+100;
-          salidaOpcion=salidaOpcion+" III";
+          precio = precio+100;bloques=bloques+1;
+        }else{
+          if(urlParams.has('s7')==true) {precio = precio+40;sesiones=sesiones+1;}
+          if(urlParams.has('s8')==true) {precio = precio+40;sesiones=sesiones+1;}
+          if(urlParams.has('s9')==true) {precio = precio+40;sesiones=sesiones+1;}
+          if(urlParams.has('s7')==true && urlParams.has('s8')==true && urlParams.has('s9')==true){precio = precio-20;sesiones=sesiones-3;bloques=bloques+1;}
         }
         if(urlParams.has('BIV')==true){
-          precio = precio+100;
-          salidaOpcion=salidaOpcion+" IV";
+          precio = precio+100;bloques=bloques+1;
+        }else{
+          if(urlParams.has('s10')==true) {precio = precio+40;sesiones=sesiones+1;}
+          if(urlParams.has('s11')==true) {precio = precio+40;sesiones=sesiones+1;}
+          if(urlParams.has('s12')==true) {precio = precio+40;sesiones=sesiones+1;}
+          if(urlParams.has('s10')==true && urlParams.has('s11')==true && urlParams.has('s12')==true){precio = precio-20;sesiones=sesiones-3;bloques=bloques+1;}
         }
-        if(precio>300){
-          precio=300;
-          salidaOpcion="Curso completo";
-        }
-        break;
-      case "sesiones":
-        salidaOpcion="Sesiones"
-        if(urlParams.has('s1')==true) precio = precio+40;
-        if(urlParams.has('s2')==true) precio = precio+40;
-        if(urlParams.has('s3')==true) precio = precio+40;
-        if(urlParams.has('s4')==true) precio = precio+40;
-        if(urlParams.has('s5')==true) precio = precio+40;
-        if(urlParams.has('s6')==true) precio = precio+40;
-        if(urlParams.has('s7')==true) precio = precio+40;
-        if(urlParams.has('s8')==true) precio = precio+40;
-        if(urlParams.has('s9')==true) precio = precio+40;
-        if(urlParams.has('s10')==true) precio = precio+40;
-        if(urlParams.has('s11')==true) precio = precio+40;
-        if(urlParams.has('s12')==true) precio = precio+40;
-        if(urlParams.has('s1')==true && urlParams.has('s3')==true && urlParams.has('s3')==true ) precio = precio-20;
-        if(urlParams.has('s4')==true && urlParams.has('s5')==true && urlParams.has('s6')==true ) precio = precio-20;
-        if(urlParams.has('s7')==true && urlParams.has('s8')==true && urlParams.has('s9')==true ) precio = precio-20;
-        if(urlParams.has('s10')==true && urlParams.has('s11')==true && urlParams.has('s12')==true ) precio = precio-20;
-        if(precio>300) precio=300;
-        break;
+        if(bloques==4){precio=300;curso=1;bloques=0;sesiones=0;}
     }
-    return [precio,salidaOpcion];
+    return [precio,curso, bloques, sesiones];
 }
