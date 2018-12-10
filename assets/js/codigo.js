@@ -258,19 +258,19 @@ $(document).ready(function() {
     var elementos;
     if(curso==1){
       elementos={};
-      elementos.items = [{sku: 'sku_E7RvrsMKSRlrrm', quantity: 1}];
+      elementos.items = [{sku: 'sku_E7JTP3BxBmKj2O', quantity: 1}];
     }else{
       if(bloques > 0 & sesiones == 0){
         elementos={};
-        elementos.items = [{sku: 'sku_E7Ryojyt3JSuUc', quantity: bloques}];
+        elementos.items = [{sku: 'sku_E7RsDROdydhh9I', quantity: bloques}];
       }
       if(bloques == 0 & sesiones > 0){
         elementos={};
-        elementos.items = [{sku: 'sku_E7RySDS5jC4Xpy', quantity: sesiones}];
+        elementos.items = [{sku: 'sku_E7RtW31ubL2uBz', quantity: sesiones}];
       }
       if(bloques > 0 & sesiones > 0){
         elementos={};
-        elementos.items= [{sku: 'sku_E7RySDS5jC4Xpy', quantity: sesiones},{sku: 'sku_E7Ryojyt3JSuUc', quantity: bloques}];
+        elementos.items= [{sku: 'sku_E7RtW31ubL2uBz', quantity: sesiones},{sku: 'sku_E7RsDROdydhh9I', quantity: bloques}];
       }
     }
     checkoutButton.addEventListener('click', function (){
